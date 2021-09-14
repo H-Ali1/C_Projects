@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="comp1921_cw2"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Owner/Desktop/projec/C_Chatbot/c_chatbot/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Owner/Desktop/projec/C_Chatbot/c_chatbot/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Owner/Desktop/projec/C_Chatbot/c_chatbot/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Owner/Desktop/projec/C_Chatbot/c_chatbot/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Owner/Desktop/projec/C_Chatbot/c_chatbot/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="run">
+				<Option output="C:/Users/Owner/Desktop/projec/C_Chatbot/c_chatbot/cmake-build-debug/run.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Owner/Desktop/projec/C_Chatbot/c_chatbot/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Owner/Desktop/projec/C_Chatbot/c_chatbot/unity/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Owner/Desktop/projec/C_Chatbot/c_chatbot/cmake-build-debug/Makefile&quot;  VERBOSE=1 run"/>
+					<CompileFile command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Owner/Desktop/projec/C_Chatbot/c_chatbot/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Owner/Desktop/projec/C_Chatbot/c_chatbot/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Owner/Desktop/projec/C_Chatbot/c_chatbot/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="run/fast">
+				<Option output="C:/Users/Owner/Desktop/projec/C_Chatbot/c_chatbot/cmake-build-debug/run.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Owner/Desktop/projec/C_Chatbot/c_chatbot/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Owner/Desktop/projec/C_Chatbot/c_chatbot/unity/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Owner/Desktop/projec/C_Chatbot/c_chatbot/cmake-build-debug/Makefile&quot;  VERBOSE=1 run/fast"/>
+					<CompileFile command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Owner/Desktop/projec/C_Chatbot/c_chatbot/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Owner/Desktop/projec/C_Chatbot/c_chatbot/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Owner/Desktop/projec/C_Chatbot/c_chatbot/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/Owner/Desktop/projec/C_Chatbot/c_chatbot/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Owner/Desktop/projec/C_Chatbot/c_chatbot/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Owner/Desktop/projec/C_Chatbot/c_chatbot/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Owner/Desktop/projec/C_Chatbot/c_chatbot/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Owner/Desktop/projec/C_Chatbot/c_chatbot/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="unit_tests">
+				<Option output="C:/Users/Owner/Desktop/projec/C_Chatbot/c_chatbot/cmake-build-debug/unit_tests.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Owner/Desktop/projec/C_Chatbot/c_chatbot/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Owner/Desktop/projec/C_Chatbot/c_chatbot/unity/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Owner/Desktop/projec/C_Chatbot/c_chatbot/cmake-build-debug/Makefile&quot;  VERBOSE=1 unit_tests"/>
+					<CompileFile command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Owner/Desktop/projec/C_Chatbot/c_chatbot/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Owner/Desktop/projec/C_Chatbot/c_chatbot/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Owner/Desktop/projec/C_Chatbot/c_chatbot/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="unit_tests/fast">
+				<Option output="C:/Users/Owner/Desktop/projec/C_Chatbot/c_chatbot/cmake-build-debug/unit_tests.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Owner/Desktop/projec/C_Chatbot/c_chatbot/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Owner/Desktop/projec/C_Chatbot/c_chatbot/unity/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Owner/Desktop/projec/C_Chatbot/c_chatbot/cmake-build-debug/Makefile&quot;  VERBOSE=1 unit_tests/fast"/>
+					<CompileFile command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Owner/Desktop/projec/C_Chatbot/c_chatbot/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Owner/Desktop/projec/C_Chatbot/c_chatbot/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Owner/Desktop/projec/C_Chatbot/c_chatbot/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/Owner/Desktop/projec/C_Chatbot/c_chatbot/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Owner/Desktop/projec/C_Chatbot/c_chatbot/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Owner/Desktop/projec/C_Chatbot/c_chatbot/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Owner/Desktop/projec/C_Chatbot/c_chatbot/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Owner/Desktop/projec/C_Chatbot/c_chatbot/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Owner/Desktop/projec/C_Chatbot/c_chatbot/src/chatbotLogic.c">
+			<Option target="run"/>
+			<Option target="unit_tests"/>
+		</Unit>
+		<Unit filename="C:/Users/Owner/Desktop/projec/C_Chatbot/c_chatbot/src/chatbotLogic.h">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="C:/Users/Owner/Desktop/projec/C_Chatbot/c_chatbot/src/fileReadWrite.c">
+			<Option target="run"/>
+			<Option target="unit_tests"/>
+		</Unit>
+		<Unit filename="C:/Users/Owner/Desktop/projec/C_Chatbot/c_chatbot/src/fileReadWrite.h">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="C:/Users/Owner/Desktop/projec/C_Chatbot/c_chatbot/src/main.c">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="C:/Users/Owner/Desktop/projec/C_Chatbot/c_chatbot/src/preProcessing.c">
+			<Option target="run"/>
+			<Option target="unit_tests"/>
+		</Unit>
+		<Unit filename="C:/Users/Owner/Desktop/projec/C_Chatbot/c_chatbot/src/preProcessing.h">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="C:/Users/Owner/Desktop/projec/C_Chatbot/c_chatbot/src/unit_tests.c">
+			<Option target="unit_tests"/>
+		</Unit>
+		<Unit filename="C:/Users/Owner/Desktop/projec/C_Chatbot/c_chatbot/unity/src/unity.c">
+			<Option target="unit_tests"/>
+		</Unit>
+		<Unit filename="C:/Users/Owner/Desktop/projec/C_Chatbot/c_chatbot/unity/src/unity.h">
+			<Option target="unit_tests"/>
+		</Unit>
+		<Unit filename="C:/Users/Owner/Desktop/projec/C_Chatbot/c_chatbot/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

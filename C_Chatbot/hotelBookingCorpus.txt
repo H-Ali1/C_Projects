@@ -1,0 +1,12 @@
+
+The hotel service number is: 01422 356001;
+Hotel is currently fully booked;
+The Hotel is located at WC2H 9HB;
+Our Hotel is 5 stars;
+The Gym is included in our facility;
+Are you booking for single or multiple people?;
+Would you like to book a single or double bed?;
+The pricing for a single-bed room is £55 for one day;
+We offer discount on stays over 1 week;
+A 1 week stay offers a 10% discount;
+The hotel offers breakfast dinner and tea daily;

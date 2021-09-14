@@ -1,0 +1,2492 @@
+
+;; Function printf (printf, funcdef_no=7, decl_uid=2099, cgraph_uid=8, symbol_order=7)
+
+
+;; Generating RTL for gimple basic block 2
+
+;; Generating RTL for gimple basic block 3
+
+
+try_optimize_cfg iteration 1
+
+Merging block 3 into block 2...
+Merged blocks 2 and 3.
+Merged 2 and 3 without moving.
+Merging block 4 into block 2...
+Merged blocks 2 and 4.
+Merged 2 and 4 without moving.
+Removing jump 17.
+Merging block 5 into block 2...
+Merged blocks 2 and 5.
+Merged 2 and 5 without moving.
+
+
+try_optimize_cfg iteration 2
+
+
+
+;;
+;; Full RTL generated for this function:
+;;
+(note 1 0 3 NOTE_INSN_DELETED)
+(note 3 1 2 2 [bb 2] NOTE_INSN_BASIC_BLOCK)
+(note 2 3 5 2 NOTE_INSN_FUNCTION_BEG)
+(insn 5 2 6 2 (parallel [
+            (set (reg:SI 86)
+                (plus:SI (reg/f:SI 76 virtual-incoming-args)
+                    (const_int 4 [0x4])))
+            (clobber (reg:CC 17 flags))
+        ]) "c:\mingw\include\stdio.h":424:35 -1
+     (nil))
+(insn 6 5 7 2 (set (mem/f/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                (const_int -4 [0xfffffffffffffffc])) [1 __local_argv+0 S4 A32])
+        (reg:SI 86)) "c:\mingw\include\stdio.h":424:35 -1
+     (nil))
+(insn 7 6 8 2 (set (reg/f:SI 82 [ __local_argv.2_1 ])
+        (mem/f/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                (const_int -4 [0xfffffffffffffffc])) [1 __local_argv+0 S4 A32])) "c:\mingw\include\stdio.h":425:14 -1
+     (nil))
+(insn 8 7 9 2 (set (mem:SI (plus:SI (reg/f:SI 79 virtual-outgoing-args)
+                (const_int 4 [0x4])) [0  S4 A32])
+        (reg/f:SI 82 [ __local_argv.2_1 ])) "c:\mingw\include\stdio.h":425:14 -1
+     (nil))
+(insn 9 8 10 2 (set (reg/f:SI 87)
+        (mem/f/c:SI (reg/f:SI 76 virtual-incoming-args) [1 __format+0 S4 A32])) "c:\mingw\include\stdio.h":425:14 -1
+     (nil))
+(insn 10 9 11 2 (set (mem:SI (reg/f:SI 79 virtual-outgoing-args) [0  S4 A32])
+        (reg/f:SI 87)) "c:\mingw\include\stdio.h":425:14 -1
+     (nil))
+(call_insn 11 10 12 2 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("__mingw_vprintf") [flags 0x43]  <function_decl 06c67618 __mingw_vprintf>) [0 __mingw_vprintf S1 A8])
+            (const_int 8 [0x8]))) "c:\mingw\include\stdio.h":425:14 -1
+     (expr_list:REG_EH_REGION (const_int 0 [0])
+        (nil))
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 79 virtual-outgoing-args) [0  S4 A32]))
+        (expr_list:SI (use (mem/f:SI (plus:SI (reg/f:SI 79 virtual-outgoing-args)
+                        (const_int 4 [0x4])) [0  S4 A32]))
+            (nil))))
+(insn 12 11 13 2 (set (reg/v:SI 83 [ __retval ])
+        (reg:SI 0 ax)) "c:\mingw\include\stdio.h":425:14 -1
+     (nil))
+(insn 13 12 16 2 (set (reg:SI 84 [ _8 ])
+        (reg/v:SI 83 [ __retval ])) "c:\mingw\include\stdio.h":427:10 -1
+     (nil))
+(insn 16 13 20 2 (set (reg:SI 85 [ <retval> ])
+        (reg:SI 84 [ _8 ])) "c:\mingw\include\stdio.h":427:10 -1
+     (nil))
+(insn 20 16 21 2 (set (reg/i:SI 0 ax)
+        (reg:SI 85 [ <retval> ])) "c:\mingw\include\stdio.h":428:1 -1
+     (nil))
+(insn 21 20 0 2 (use (reg/i:SI 0 ax)) "c:\mingw\include\stdio.h":428:1 -1
+     (nil))
+
+;; Function runSimilarity (runSimilarity, funcdef_no=20, decl_uid=2014, cgraph_uid=21, symbol_order=20)
+
+Partition 1: size 1600 align 1
+	tempChar	tempChar
+
+;; Generating RTL for gimple basic block 2
+
+;; Generating RTL for gimple basic block 3
+
+;; Generating RTL for gimple basic block 4
+
+;; Generating RTL for gimple basic block 5
+
+;; Generating RTL for gimple basic block 6
+
+;; Generating RTL for gimple basic block 7
+
+;; Generating RTL for gimple basic block 8
+
+;; Generating RTL for gimple basic block 9
+
+;; Generating RTL for gimple basic block 10
+
+;; Generating RTL for gimple basic block 11
+
+;; Generating RTL for gimple basic block 12
+
+;; Generating RTL for gimple basic block 13
+
+;; Generating RTL for gimple basic block 14
+
+;; Generating RTL for gimple basic block 15
+
+;; Generating RTL for gimple basic block 16
+
+;; Generating RTL for gimple basic block 17
+
+;; Generating RTL for gimple basic block 18
+
+;; Generating RTL for gimple basic block 19
+
+;; Generating RTL for gimple basic block 20
+
+;; Generating RTL for gimple basic block 21
+
+;; Generating RTL for gimple basic block 22
+
+;; Generating RTL for gimple basic block 23
+
+;; Generating RTL for gimple basic block 24
+
+;; Generating RTL for gimple basic block 25
+
+;; Generating RTL for gimple basic block 26
+
+;; Generating RTL for gimple basic block 27
+
+;; Generating RTL for gimple basic block 28
+
+;; Generating RTL for gimple basic block 29
+
+;; Generating RTL for gimple basic block 30
+
+;; Generating RTL for gimple basic block 31
+
+;; Generating RTL for gimple basic block 32
+
+;; Generating RTL for gimple basic block 33
+
+;; Generating RTL for gimple basic block 34
+
+;; Generating RTL for gimple basic block 35
+
+;; Generating RTL for gimple basic block 36
+
+;; Generating RTL for gimple basic block 37
+
+;; Generating RTL for gimple basic block 38
+
+;; Generating RTL for gimple basic block 39
+
+;; Generating RTL for gimple basic block 40
+Purged non-fallthru edges from bb 44
+Purged non-fallthru edges from bb 46
+Purged non-fallthru edges from bb 48
+Purged non-fallthru edges from bb 50
+
+
+try_optimize_cfg iteration 1
+
+Merging block 3 into block 2...
+Merged blocks 2 and 3.
+Merged 2 and 3 without moving.
+Edge 8->10 redirected to 11
+Forwarding edge 8->9 to 15 failed.
+Forwarding edge 8->9 to 15 failed.
+deleting block 10
+Edge 17->19 redirected to 20
+Forwarding edge 17->18 to 24 failed.
+Forwarding edge 17->18 to 24 failed.
+deleting block 19
+Redirecting jump 153 from 48 to 49.
+Edge 30->32 redirected to 33
+Forwarding edge 30->31 to 37 failed.
+Forwarding edge 30->31 to 37 failed.
+deleting block 32
+Edge 39->41 redirected to 42
+Forwarding edge 39->40 to 46 failed.
+Forwarding edge 39->40 to 46 failed.
+deleting block 41
+Merging block 48 into block 47...
+Merged blocks 47 and 48.
+Merged 47 and 48 without moving.
+Removing jump 301.
+Merging block 50 into block 49...
+Merged blocks 49 and 50.
+Merged 49 and 50 without moving.
+
+
+try_optimize_cfg iteration 2
+
+Forwarding edge 8->9 to 15 failed.
+Forwarding edge 17->18 to 24 failed.
+Forwarding edge 30->31 to 37 failed.
+Forwarding edge 39->40 to 46 failed.
+
+
+;;
+;; Full RTL generated for this function:
+;;
+(note 1 0 3 NOTE_INSN_DELETED)
+(note 3 1 2 2 [bb 2] NOTE_INSN_BASIC_BLOCK)
+(note 2 3 5 2 NOTE_INSN_FUNCTION_BEG)
+(insn 5 2 6 2 (set (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                (const_int -52 [0xffffffffffffffcc])) [2 sizeArray+0 S4 A32])
+        (const_int 0 [0])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":13:9 -1
+     (nil))
+(insn 6 5 7 2 (set (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                (const_int -4 [0xfffffffffffffffc])) [2 similarSizeArray+0 S4 A32])
+        (const_int 0 [0])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":14:9 -1
+     (nil))
+(insn 7 6 8 2 (set (reg:DF 100)
+        (mem/u/c:DF (symbol_ref/u:SI ("*LC0") [flags 0x2]) [0  S8 A64])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":16:12 -1
+     (nil))
+(insn 8 7 9 2 (set (mem/c:DF (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                (const_int -64 [0xffffffffffffffc0])) [3 similarity+0 S8 A64])
+        (reg:DF 100)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":16:12 -1
+     (nil))
+(insn 9 8 10 2 (set (reg:DF 101)
+        (mem/u/c:DF (symbol_ref/u:SI ("*LC0") [flags 0x2]) [0  S8 A64])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":17:12 -1
+     (nil))
+(insn 10 9 11 2 (set (mem/c:DF (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                (const_int -16 [0xfffffffffffffff0])) [3 previous_similarity+0 S8 A64])
+        (reg:DF 101)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":17:12 -1
+     (nil))
+(insn 11 10 12 2 (set (reg:CCZ 17 flags)
+        (compare:CCZ (mem/c:SI (reg/f:SI 76 virtual-incoming-args) [2 option+0 S4 A32])
+            (const_int 1 [0x1]))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":21:8 -1
+     (nil))
+(jump_insn 12 11 13 2 (set (pc)
+        (if_then_else (ne (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref 155)
+            (pc))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":21:8 -1
+     (nil)
+ -> 155)
+(note 13 12 14 4 [bb 4] NOTE_INSN_BASIC_BLOCK)
+(insn 14 13 15 4 (set (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                (const_int -20 [0xffffffffffffffec])) [2 i+0 S4 A32])
+        (const_int 0 [0])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":22:18 -1
+     (nil))
+(jump_insn 15 14 16 4 (set (pc)
+        (label_ref 104)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":22:9 -1
+     (nil)
+ -> 104)
+(barrier 16 15 107)
+(code_label 107 16 17 5 12 (nil) [1 uses])
+(note 17 107 18 5 [bb 5] NOTE_INSN_BASIC_BLOCK)
+(insn 18 17 19 5 (set (reg:SI 102)
+        (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                (const_int -20 [0xffffffffffffffec])) [2 i+0 S4 A32])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":23:42 -1
+     (nil))
+(insn 19 18 20 5 (set (reg/f:SI 82 [ _1 ])
+        (mem/f:SI (plus:SI (mult:SI (reg:SI 102)
+                    (const_int 4 [0x4]))
+                (symbol_ref:SI ("arrayHotelBooking") [flags 0x42]  <var_decl 06c7c688 arrayHotelBooking>)) [4 arrayHotelBooking S4 A32])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":23:42 -1
+     (nil))
+(insn 20 19 21 5 (set (reg:SI 103)
+        (mem:SI (plus:SI (reg/f:SI 82 [ _1 ])
+                (const_int 4 [0x4])) [2 _1->arraySizeId+0 S4 A32])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":23:23 -1
+     (nil))
+(insn 21 20 22 5 (set (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                (const_int -52 [0xffffffffffffffcc])) [2 sizeArray+0 S4 A32])
+        (reg:SI 103)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":23:23 -1
+     (nil))
+(insn 22 21 23 5 (set (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                (const_int -24 [0xffffffffffffffe8])) [2 j+0 S4 A32])
+        (const_int 0 [0])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":26:22 -1
+     (nil))
+(jump_insn 23 22 24 5 (set (pc)
+        (label_ref 44)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":26:13 -1
+     (nil)
+ -> 44)
+(barrier 24 23 46)
+(code_label 46 24 25 6 7 (nil) [1 uses])
+(note 25 46 26 6 [bb 6] NOTE_INSN_BASIC_BLOCK)
+(insn 26 25 27 6 (set (reg:SI 104)
+        (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                (const_int -20 [0xffffffffffffffec])) [2 i+0 S4 A32])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":27:54 -1
+     (nil))
+(insn 27 26 28 6 (set (reg/f:SI 83 [ _2 ])
+        (mem/f:SI (plus:SI (mult:SI (reg:SI 104)
+                    (const_int 4 [0x4]))
+                (symbol_ref:SI ("arrayHotelBooking") [flags 0x42]  <var_decl 06c7c688 arrayHotelBooking>)) [4 arrayHotelBooking S4 A32])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":27:54 -1
+     (nil))
+(insn 28 27 29 6 (set (reg:SI 106)
+        (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                (const_int -24 [0xffffffffffffffe8])) [2 j+0 S4 A32])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":27:72 -1
+     (nil))
+(insn 29 28 30 6 (parallel [
+            (set (reg:SI 105)
+                (mult:SI (reg:SI 106)
+                    (const_int 200 [0xc8])))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":27:72 -1
+     (nil))
+(insn 30 29 31 6 (parallel [
+            (set (reg:SI 107)
+                (plus:SI (reg/f:SI 83 [ _2 ])
+                    (reg:SI 105)))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":27:72 -1
+     (nil))
+(insn 31 30 32 6 (parallel [
+            (set (reg/f:SI 84 [ _3 ])
+                (plus:SI (reg:SI 107)
+                    (const_int 8 [0x8])))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":27:72 -1
+     (nil))
+(insn 32 31 33 6 (parallel [
+            (set (reg:SI 108)
+                (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                    (const_int -3264 [0xfffffffffffff340])))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":27:32 -1
+     (nil))
+(insn 33 32 34 6 (set (reg:SI 109)
+        (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                (const_int -24 [0xffffffffffffffe8])) [2 j+0 S4 A32])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":27:32 -1
+     (nil))
+(insn 34 33 35 6 (set (reg:SI 110)
+        (reg:SI 109)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":27:32 -1
+     (nil))
+(insn 35 34 36 6 (parallel [
+            (set (reg:SI 110)
+                (ashift:SI (reg:SI 110)
+                    (const_int 2 [0x2])))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":27:32 -1
+     (nil))
+(insn 36 35 37 6 (parallel [
+            (set (reg:SI 110)
+                (plus:SI (reg:SI 110)
+                    (reg:SI 109)))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":27:32 -1
+     (expr_list:REG_EQUAL (mult:SI (reg:SI 109)
+            (const_int 5 [0x5]))
+        (nil)))
+(insn 37 36 38 6 (parallel [
+            (set (reg:SI 111)
+                (ashift:SI (reg:SI 110)
+                    (const_int 3 [0x3])))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":27:32 -1
+     (nil))
+(insn 38 37 39 6 (set (reg:SI 110)
+        (reg:SI 111)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":27:32 -1
+     (expr_list:REG_EQUAL (mult:SI (reg:SI 109)
+            (const_int 40 [0x28]))
+        (nil)))
+(insn 39 38 40 6 (parallel [
+            (set (reg/f:SI 85 [ _4 ])
+                (plus:SI (reg:SI 108)
+                    (reg:SI 110)))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":27:32 -1
+     (nil))
+(insn 40 39 41 6 (set (mem:SI (plus:SI (reg/f:SI 79 virtual-outgoing-args)
+                (const_int 4 [0x4])) [0  S4 A32])
+        (reg/f:SI 84 [ _3 ])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":27:17 -1
+     (nil))
+(insn 41 40 42 6 (set (mem:SI (reg/f:SI 79 virtual-outgoing-args) [0  S4 A32])
+        (reg/f:SI 85 [ _4 ])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":27:17 -1
+     (nil))
+(call_insn 42 41 43 6 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("strcpy") [flags 0x43]  <function_decl 06bb0bb8 strcpy>) [0 __builtin_strcpy S1 A8])
+            (const_int 8 [0x8]))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":27:17 -1
+     (expr_list:REG_EH_REGION (const_int 0 [0])
+        (nil))
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 79 virtual-outgoing-args) [0  S4 A32]))
+        (expr_list:SI (use (mem/f:SI (plus:SI (reg/f:SI 79 virtual-outgoing-args)
+                        (const_int 4 [0x4])) [0  S4 A32]))
+            (nil))))
+(insn 43 42 44 6 (parallel [
+            (set (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                        (const_int -24 [0xffffffffffffffe8])) [2 j+0 S4 A32])
+                (plus:SI (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                            (const_int -24 [0xffffffffffffffe8])) [2 j+0 S4 A32])
+                    (const_int 1 [0x1])))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":26:45 -1
+     (nil))
+(code_label 44 43 45 7 6 (nil) [1 uses])
+(note 45 44 47 7 [bb 7] NOTE_INSN_BASIC_BLOCK)
+(insn 47 45 48 7 (set (reg:SI 112)
+        (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                (const_int -24 [0xffffffffffffffe8])) [2 j+0 S4 A32])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":26:13 -1
+     (nil))
+(insn 48 47 49 7 (set (reg:CCGC 17 flags)
+        (compare:CCGC (reg:SI 112)
+            (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                    (const_int -52 [0xffffffffffffffcc])) [2 sizeArray+0 S4 A32]))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":26:13 -1
+     (nil))
+(jump_insn 49 48 50 7 (set (pc)
+        (if_then_else (lt (reg:CCGC 17 flags)
+                (const_int 0 [0]))
+            (label_ref 46)
+            (pc))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":26:13 -1
+     (nil)
+ -> 46)
+(note 50 49 51 8 [bb 8] NOTE_INSN_BASIC_BLOCK)
+(insn 51 50 52 8 (set (reg:SI 113)
+        (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                (const_int -52 [0xffffffffffffffcc])) [2 sizeArray+0 S4 A32])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":31:26 -1
+     (nil))
+(insn 52 51 53 8 (set (mem:SI (plus:SI (reg/f:SI 79 virtual-outgoing-args)
+                (const_int 4 [0x4])) [0  S4 A32])
+        (reg:SI 113)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":31:26 -1
+     (nil))
+(insn 53 52 54 8 (parallel [
+            (set (reg:SI 114)
+                (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                    (const_int -3264 [0xfffffffffffff340])))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":31:26 -1
+     (nil))
+(insn 54 53 55 8 (set (mem/f:SI (reg/f:SI 79 virtual-outgoing-args) [0  S4 A32])
+        (reg:SI 114)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":31:26 -1
+     (nil))
+(call_insn 55 54 56 8 (set (reg:DF 8 st)
+        (call (mem:QI (symbol_ref:SI ("cosineSimilarity") [flags 0x3]  <function_decl 06c49ca8 cosineSimilarity>) [0 cosineSimilarity S1 A8])
+            (const_int 8 [0x8]))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":31:26 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 79 virtual-outgoing-args) [0  S4 A32]))
+        (expr_list:SI (use (mem:SI (plus:SI (reg/f:SI 79 virtual-outgoing-args)
+                        (const_int 4 [0x4])) [0  S4 A32]))
+            (nil))))
+(insn 56 55 57 8 (set (reg:DF 115)
+        (reg:DF 8 st)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":31:26 -1
+     (nil))
+(insn 57 56 58 8 (set (mem/c:DF (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                (const_int -64 [0xffffffffffffffc0])) [3 similarity+0 S8 A64])
+        (reg:DF 115)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":31:26 -1
+     (nil))
+(insn 58 57 59 8 (set (reg:DF 116)
+        (mem/c:DF (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                (const_int -64 [0xffffffffffffffc0])) [3 similarity+0 S8 A64])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":35:15 -1
+     (nil))
+(insn 59 58 60 8 (set (reg:HI 117)
+        (unspec:HI [
+                (compare:CCFP (reg:DF 116)
+                    (mem/c:DF (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                            (const_int -16 [0xfffffffffffffff0])) [3 previous_similarity+0 S8 A64]))
+            ] UNSPEC_FNSTSW)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":35:15 -1
+     (nil))
+(insn 60 59 61 8 (set (reg:CC 17 flags)
+        (unspec:CC [
+                (reg:HI 117)
+            ] UNSPEC_SAHF)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":35:15 -1
+     (nil))
+(jump_insn 61 60 307 8 (set (pc)
+        (if_then_else (gt (reg:CCFP 17 flags)
+                (const_int 0 [0]))
+            (label_ref:SI 315)
+            (pc))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":35:15 513 {*jcc}
+     (nil)
+ -> 315)
+(note 307 61 62 9 [bb 9] NOTE_INSN_BASIC_BLOCK)
+(jump_insn 62 307 63 9 (set (pc)
+        (label_ref 101)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":35:15 -1
+     (nil)
+ -> 101)
+(barrier 63 62 315)
+(code_label 315 63 65 11 33 (nil) [1 uses])
+(note 65 315 66 11 [bb 11] NOTE_INSN_BASIC_BLOCK)
+(insn 66 65 67 11 (set (reg:SI 118)
+        (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                (const_int -52 [0xffffffffffffffcc])) [2 sizeArray+0 S4 A32])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":36:34 -1
+     (nil))
+(insn 67 66 68 11 (set (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                (const_int -4 [0xfffffffffffffffc])) [2 similarSizeArray+0 S4 A32])
+        (reg:SI 118)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":36:34 -1
+     (nil))
+(insn 68 67 69 11 (set (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                (const_int -28 [0xffffffffffffffe4])) [2 x+0 S4 A32])
+        (const_int 0 [0])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":37:26 -1
+     (nil))
+(jump_insn 69 68 70 11 (set (pc)
+        (label_ref 92)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":37:17 -1
+     (nil)
+ -> 92)
+(barrier 70 69 94)
+(code_label 94 70 71 12 11 (nil) [1 uses])
+(note 71 94 72 12 [bb 12] NOTE_INSN_BASIC_BLOCK)
+(insn 72 71 73 12 (parallel [
+            (set (reg:SI 119)
+                (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                    (const_int -3264 [0xfffffffffffff340])))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":38:56 -1
+     (nil))
+(insn 73 72 74 12 (set (reg:SI 120)
+        (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                (const_int -28 [0xffffffffffffffe4])) [2 x+0 S4 A32])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":38:56 -1
+     (nil))
+(insn 74 73 75 12 (set (reg:SI 121)
+        (reg:SI 120)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":38:56 -1
+     (nil))
+(insn 75 74 76 12 (parallel [
+            (set (reg:SI 121)
+                (ashift:SI (reg:SI 121)
+                    (const_int 2 [0x2])))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":38:56 -1
+     (nil))
+(insn 76 75 77 12 (parallel [
+            (set (reg:SI 121)
+                (plus:SI (reg:SI 121)
+                    (reg:SI 120)))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":38:56 -1
+     (expr_list:REG_EQUAL (mult:SI (reg:SI 120)
+            (const_int 5 [0x5]))
+        (nil)))
+(insn 77 76 78 12 (parallel [
+            (set (reg:SI 122)
+                (ashift:SI (reg:SI 121)
+                    (const_int 3 [0x3])))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":38:56 -1
+     (nil))
+(insn 78 77 79 12 (set (reg:SI 121)
+        (reg:SI 122)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":38:56 -1
+     (expr_list:REG_EQUAL (mult:SI (reg:SI 120)
+            (const_int 40 [0x28]))
+        (nil)))
+(insn 79 78 80 12 (parallel [
+            (set (reg/f:SI 86 [ _5 ])
+                (plus:SI (reg:SI 119)
+                    (reg:SI 121)))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":38:56 -1
+     (nil))
+(insn 80 79 81 12 (parallel [
+            (set (reg:SI 123)
+                (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                    (const_int -1664 [0xfffffffffffff980])))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":38:43 -1
+     (nil))
+(insn 81 80 82 12 (set (reg:SI 124)
+        (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                (const_int -28 [0xffffffffffffffe4])) [2 x+0 S4 A32])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":38:43 -1
+     (nil))
+(insn 82 81 83 12 (set (reg:SI 125)
+        (reg:SI 124)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":38:43 -1
+     (nil))
+(insn 83 82 84 12 (parallel [
+            (set (reg:SI 125)
+                (ashift:SI (reg:SI 125)
+                    (const_int 2 [0x2])))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":38:43 -1
+     (nil))
+(insn 84 83 85 12 (parallel [
+            (set (reg:SI 125)
+                (plus:SI (reg:SI 125)
+                    (reg:SI 124)))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":38:43 -1
+     (expr_list:REG_EQUAL (mult:SI (reg:SI 124)
+            (const_int 5 [0x5]))
+        (nil)))
+(insn 85 84 86 12 (parallel [
+            (set (reg:SI 126)
+                (ashift:SI (reg:SI 125)
+                    (const_int 3 [0x3])))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":38:43 -1
+     (nil))
+(insn 86 85 87 12 (set (reg:SI 125)
+        (reg:SI 126)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":38:43 -1
+     (expr_list:REG_EQUAL (mult:SI (reg:SI 124)
+            (const_int 40 [0x28]))
+        (nil)))
+(insn 87 86 88 12 (parallel [
+            (set (reg/f:SI 87 [ _6 ])
+                (plus:SI (reg:SI 123)
+                    (reg:SI 125)))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":38:43 -1
+     (nil))
+(insn 88 87 89 12 (set (mem:SI (plus:SI (reg/f:SI 79 virtual-outgoing-args)
+                (const_int 4 [0x4])) [0  S4 A32])
+        (reg/f:SI 86 [ _5 ])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":38:21 -1
+     (nil))
+(insn 89 88 90 12 (set (mem:SI (reg/f:SI 79 virtual-outgoing-args) [0  S4 A32])
+        (reg/f:SI 87 [ _6 ])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":38:21 -1
+     (nil))
+(call_insn 90 89 91 12 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("strcpy") [flags 0x43]  <function_decl 06bb0bb8 strcpy>) [0 __builtin_strcpy S1 A8])
+            (const_int 8 [0x8]))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":38:21 -1
+     (expr_list:REG_EH_REGION (const_int 0 [0])
+        (nil))
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 79 virtual-outgoing-args) [0  S4 A32]))
+        (expr_list:SI (use (mem/f:SI (plus:SI (reg/f:SI 79 virtual-outgoing-args)
+                        (const_int 4 [0x4])) [0  S4 A32]))
+            (nil))))
+(insn 91 90 92 12 (parallel [
+            (set (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                        (const_int -28 [0xffffffffffffffe4])) [2 x+0 S4 A32])
+                (plus:SI (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                            (const_int -28 [0xffffffffffffffe4])) [2 x+0 S4 A32])
+                    (const_int 1 [0x1])))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":37:49 -1
+     (nil))
+(code_label 92 91 93 13 10 (nil) [1 uses])
+(note 93 92 95 13 [bb 13] NOTE_INSN_BASIC_BLOCK)
+(insn 95 93 96 13 (set (reg:SI 127)
+        (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                (const_int -28 [0xffffffffffffffe4])) [2 x+0 S4 A32])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":37:17 -1
+     (nil))
+(insn 96 95 97 13 (set (reg:CCGC 17 flags)
+        (compare:CCGC (reg:SI 127)
+            (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                    (const_int -52 [0xffffffffffffffcc])) [2 sizeArray+0 S4 A32]))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":37:17 -1
+     (nil))
+(jump_insn 97 96 98 13 (set (pc)
+        (if_then_else (lt (reg:CCGC 17 flags)
+                (const_int 0 [0]))
+            (label_ref 94)
+            (pc))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":37:17 -1
+     (nil)
+ -> 94)
+(note 98 97 99 14 [bb 14] NOTE_INSN_BASIC_BLOCK)
+(insn 99 98 100 14 (set (reg:DF 128)
+        (mem/c:DF (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                (const_int -64 [0xffffffffffffffc0])) [3 similarity+0 S8 A64])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":40:37 -1
+     (nil))
+(insn 100 99 101 14 (set (mem/c:DF (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                (const_int -16 [0xfffffffffffffff0])) [3 previous_similarity+0 S8 A64])
+        (reg:DF 128)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":40:37 -1
+     (nil))
+(code_label 101 100 102 15 8 (nil) [1 uses])
+(note 102 101 103 15 [bb 15] NOTE_INSN_BASIC_BLOCK)
+(insn 103 102 104 15 (parallel [
+            (set (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                        (const_int -20 [0xffffffffffffffec])) [2 i+0 S4 A32])
+                (plus:SI (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                            (const_int -20 [0xffffffffffffffec])) [2 i+0 S4 A32])
+                    (const_int 1 [0x1])))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":22:52 -1
+     (nil))
+(code_label 104 103 105 16 5 (nil) [1 uses])
+(note 105 104 106 16 [bb 16] NOTE_INSN_BASIC_BLOCK)
+(insn 106 105 108 16 (set (reg:SI 88 [ elementInCorpusHotel.0_7 ])
+        (mem/c:SI (symbol_ref:SI ("elementInCorpusHotel") [flags 0x42]  <var_decl 06c7c738 elementInCorpusHotel>) [2 elementInCorpusHotel+0 S4 A32])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":22:27 -1
+     (nil))
+(insn 108 106 109 16 (set (reg:CCGC 17 flags)
+        (compare:CCGC (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                    (const_int -20 [0xffffffffffffffec])) [2 i+0 S4 A32])
+            (reg:SI 88 [ elementInCorpusHotel.0_7 ]))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":22:9 -1
+     (nil))
+(jump_insn 109 108 110 16 (set (pc)
+        (if_then_else (lt (reg:CCGC 17 flags)
+                (const_int 0 [0]))
+            (label_ref 107)
+            (pc))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":22:9 -1
+     (nil)
+ -> 107)
+(note 110 109 111 17 [bb 17] NOTE_INSN_BASIC_BLOCK)
+(insn 111 110 112 17 (set (reg:DF 129)
+        (mem/c:DF (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                (const_int -16 [0xfffffffffffffff0])) [3 previous_similarity+0 S8 A64])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":45:11 -1
+     (nil))
+(insn 112 111 113 17 (set (reg:HI 130)
+        (unspec:HI [
+                (compare:CCFP (reg:DF 129)
+                    (const_double:DF 0.0 [0x0.0p+0]))
+            ] UNSPEC_FNSTSW)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":45:11 -1
+     (nil))
+(insn 113 112 114 17 (set (reg:CC 17 flags)
+        (unspec:CC [
+                (reg:HI 130)
+            ] UNSPEC_SAHF)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":45:11 -1
+     (nil))
+(jump_insn 114 113 309 17 (set (pc)
+        (if_then_else (gt (reg:CCFP 17 flags)
+                (const_int 0 [0]))
+            (label_ref:SI 316)
+            (pc))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":45:11 513 {*jcc}
+     (nil)
+ -> 316)
+(note 309 114 115 18 [bb 18] NOTE_INSN_BASIC_BLOCK)
+(jump_insn 115 309 116 18 (set (pc)
+        (label_ref 146)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":45:11 -1
+     (nil)
+ -> 146)
+(barrier 116 115 316)
+(code_label 316 116 118 20 34 (nil) [1 uses])
+(note 118 316 119 20 [bb 20] NOTE_INSN_BASIC_BLOCK)
+(insn 119 118 120 20 (set (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                (const_int -32 [0xffffffffffffffe0])) [2 i+0 S4 A32])
+        (const_int 0 [0])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":46:22 -1
+     (nil))
+(jump_insn 120 119 121 20 (set (pc)
+        (label_ref 135)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":46:13 -1
+     (nil)
+ -> 135)
+(barrier 121 120 137)
+(code_label 137 121 122 21 16 (nil) [1 uses])
+(note 122 137 123 21 [bb 21] NOTE_INSN_BASIC_BLOCK)
+(insn 123 122 124 21 (parallel [
+            (set (reg:SI 131)
+                (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                    (const_int -1664 [0xfffffffffffff980])))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":47:46 -1
+     (nil))
+(insn 124 123 125 21 (set (reg:SI 132)
+        (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                (const_int -32 [0xffffffffffffffe0])) [2 i+0 S4 A32])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":47:46 -1
+     (nil))
+(insn 125 124 126 21 (set (reg:SI 133)
+        (reg:SI 132)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":47:46 -1
+     (nil))
+(insn 126 125 127 21 (parallel [
+            (set (reg:SI 133)
+                (ashift:SI (reg:SI 133)
+                    (const_int 2 [0x2])))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":47:46 -1
+     (nil))
+(insn 127 126 128 21 (parallel [
+            (set (reg:SI 133)
+                (plus:SI (reg:SI 133)
+                    (reg:SI 132)))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":47:46 -1
+     (expr_list:REG_EQUAL (mult:SI (reg:SI 132)
+            (const_int 5 [0x5]))
+        (nil)))
+(insn 128 127 129 21 (parallel [
+            (set (reg:SI 134)
+                (ashift:SI (reg:SI 133)
+                    (const_int 3 [0x3])))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":47:46 -1
+     (nil))
+(insn 129 128 130 21 (set (reg:SI 133)
+        (reg:SI 134)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":47:46 -1
+     (expr_list:REG_EQUAL (mult:SI (reg:SI 132)
+            (const_int 40 [0x28]))
+        (nil)))
+(insn 130 129 131 21 (parallel [
+            (set (reg/f:SI 89 [ _8 ])
+                (plus:SI (reg:SI 131)
+                    (reg:SI 133)))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":47:46 -1
+     (nil))
+(insn 131 130 132 21 (set (mem:SI (plus:SI (reg/f:SI 79 virtual-outgoing-args)
+                (const_int 4 [0x4])) [0  S4 A32])
+        (reg/f:SI 89 [ _8 ])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":47:17 -1
+     (nil))
+(insn 132 131 133 21 (set (mem:SI (reg/f:SI 79 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref/f:SI ("*LC1") [flags 0x2]  <var_decl 06c9c8f0 *LC1>)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":47:17 -1
+     (nil))
+(call_insn 133 132 134 21 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("printf") [flags 0x3]  <function_decl 06c67870 printf>) [0 printf S1 A8])
+            (const_int 8 [0x8]))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":47:17 -1
+     (expr_list:REG_EH_REGION (const_int 0 [0])
+        (nil))
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 79 virtual-outgoing-args) [0  S4 A32]))
+        (expr_list:SI (use (mem/f:SI (plus:SI (reg/f:SI 79 virtual-outgoing-args)
+                        (const_int 4 [0x4])) [0  S4 A32]))
+            (nil))))
+(insn 134 133 135 21 (parallel [
+            (set (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                        (const_int -32 [0xffffffffffffffe0])) [2 i+0 S4 A32])
+                (plus:SI (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                            (const_int -32 [0xffffffffffffffe0])) [2 i+0 S4 A32])
+                    (const_int 1 [0x1])))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":46:52 -1
+     (nil))
+(code_label 135 134 136 22 15 (nil) [1 uses])
+(note 136 135 138 22 [bb 22] NOTE_INSN_BASIC_BLOCK)
+(insn 138 136 139 22 (set (reg:SI 135)
+        (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                (const_int -32 [0xffffffffffffffe0])) [2 i+0 S4 A32])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":46:13 -1
+     (nil))
+(insn 139 138 140 22 (set (reg:CCGC 17 flags)
+        (compare:CCGC (reg:SI 135)
+            (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                    (const_int -4 [0xfffffffffffffffc])) [2 similarSizeArray+0 S4 A32]))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":46:13 -1
+     (nil))
+(jump_insn 140 139 141 22 (set (pc)
+        (if_then_else (lt (reg:CCGC 17 flags)
+                (const_int 0 [0]))
+            (label_ref 137)
+            (pc))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":46:13 -1
+     (nil)
+ -> 137)
+(note 141 140 142 23 [bb 23] NOTE_INSN_BASIC_BLOCK)
+(insn 142 141 143 23 (set (mem:SI (reg/f:SI 79 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref/f:SI ("*LC2") [flags 0x2]  <var_decl 06c9c948 *LC2>)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":49:13 -1
+     (nil))
+(call_insn 143 142 144 23 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("printf") [flags 0x3]  <function_decl 06c67870 printf>) [0 printf S1 A8])
+            (const_int 4 [0x4]))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":49:13 -1
+     (expr_list:REG_EH_REGION (const_int 0 [0])
+        (nil))
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 79 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(jump_insn 144 143 145 23 (set (pc)
+        (label_ref 150)) -1
+     (nil)
+ -> 150)
+(barrier 145 144 146)
+(code_label 146 145 147 24 13 (nil) [1 uses])
+(note 147 146 148 24 [bb 24] NOTE_INSN_BASIC_BLOCK)
+(insn 148 147 149 24 (set (mem:SI (reg/f:SI 79 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref/f:SI ("*LC3") [flags 0x2]  <var_decl 06c9c9a0 *LC3>)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":52:13 -1
+     (nil))
+(call_insn 149 148 150 24 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("printf") [flags 0x3]  <function_decl 06c67870 printf>) [0 printf S1 A8])
+            (const_int 4 [0x4]))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":52:13 -1
+     (expr_list:REG_EH_REGION (const_int 0 [0])
+        (nil))
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 79 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(code_label 150 149 151 25 17 (nil) [1 uses])
+(note 151 150 152 25 [bb 25] NOTE_INSN_BASIC_BLOCK)
+(insn 152 151 153 25 (set (reg:SI 98 [ _33 ])
+        (const_int 1 [0x1])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":54:16 -1
+     (nil))
+(jump_insn 153 152 154 25 (set (pc)
+        (label_ref:SI 298)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":54:16 514 {jump}
+     (nil)
+ -> 298)
+(barrier 154 153 155)
+(code_label 155 154 156 26 4 (nil) [1 uses])
+(note 156 155 157 26 [bb 26] NOTE_INSN_BASIC_BLOCK)
+(insn 157 156 158 26 (set (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                (const_int -36 [0xffffffffffffffdc])) [2 i+0 S4 A32])
+        (const_int 0 [0])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":59:18 -1
+     (nil))
+(jump_insn 158 157 159 26 (set (pc)
+        (label_ref 247)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":59:9 -1
+     (nil)
+ -> 247)
+(barrier 159 158 250)
+(code_label 250 159 160 27 26 (nil) [1 uses])
+(note 160 250 161 27 [bb 27] NOTE_INSN_BASIC_BLOCK)
+(insn 161 160 162 27 (set (reg:SI 136)
+        (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                (const_int -36 [0xffffffffffffffdc])) [2 i+0 S4 A32])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":60:41 -1
+     (nil))
+(insn 162 161 163 27 (set (reg/f:SI 90 [ _9 ])
+        (mem/f:SI (plus:SI (mult:SI (reg:SI 136)
+                    (const_int 4 [0x4]))
+                (symbol_ref:SI ("arrayRoomService") [flags 0x42]  <var_decl 06c7c6e0 arrayRoomService>)) [6 arrayRoomService S4 A32])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":60:41 -1
+     (nil))
+(insn 163 162 164 27 (set (reg:SI 137)
+        (mem:SI (plus:SI (reg/f:SI 90 [ _9 ])
+                (const_int 4 [0x4])) [2 _9->arraySizeId+0 S4 A32])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":60:23 -1
+     (nil))
+(insn 164 163 165 27 (set (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                (const_int -52 [0xffffffffffffffcc])) [2 sizeArray+0 S4 A32])
+        (reg:SI 137)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":60:23 -1
+     (nil))
+(insn 165 164 166 27 (set (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                (const_int -40 [0xffffffffffffffd8])) [2 j+0 S4 A32])
+        (const_int 0 [0])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":63:22 -1
+     (nil))
+(jump_insn 166 165 167 27 (set (pc)
+        (label_ref 187)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":63:13 -1
+     (nil)
+ -> 187)
+(barrier 167 166 189)
+(code_label 189 167 168 28 21 (nil) [1 uses])
+(note 168 189 169 28 [bb 28] NOTE_INSN_BASIC_BLOCK)
+(insn 169 168 170 28 (set (reg:SI 138)
+        (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                (const_int -36 [0xffffffffffffffdc])) [2 i+0 S4 A32])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":65:53 -1
+     (nil))
+(insn 170 169 171 28 (set (reg/f:SI 91 [ _10 ])
+        (mem/f:SI (plus:SI (mult:SI (reg:SI 138)
+                    (const_int 4 [0x4]))
+                (symbol_ref:SI ("arrayRoomService") [flags 0x42]  <var_decl 06c7c6e0 arrayRoomService>)) [6 arrayRoomService S4 A32])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":65:53 -1
+     (nil))
+(insn 171 170 172 28 (set (reg:SI 140)
+        (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                (const_int -40 [0xffffffffffffffd8])) [2 j+0 S4 A32])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":65:71 -1
+     (nil))
+(insn 172 171 173 28 (parallel [
+            (set (reg:SI 139)
+                (mult:SI (reg:SI 140)
+                    (const_int 200 [0xc8])))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":65:71 -1
+     (nil))
+(insn 173 172 174 28 (parallel [
+            (set (reg:SI 141)
+                (plus:SI (reg/f:SI 91 [ _10 ])
+                    (reg:SI 139)))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":65:71 -1
+     (nil))
+(insn 174 173 175 28 (parallel [
+            (set (reg/f:SI 92 [ _11 ])
+                (plus:SI (reg:SI 141)
+                    (const_int 8 [0x8])))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":65:71 -1
+     (nil))
+(insn 175 174 176 28 (parallel [
+            (set (reg:SI 142)
+                (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                    (const_int -3264 [0xfffffffffffff340])))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":65:32 -1
+     (nil))
+(insn 176 175 177 28 (set (reg:SI 143)
+        (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                (const_int -40 [0xffffffffffffffd8])) [2 j+0 S4 A32])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":65:32 -1
+     (nil))
+(insn 177 176 178 28 (set (reg:SI 144)
+        (reg:SI 143)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":65:32 -1
+     (nil))
+(insn 178 177 179 28 (parallel [
+            (set (reg:SI 144)
+                (ashift:SI (reg:SI 144)
+                    (const_int 2 [0x2])))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":65:32 -1
+     (nil))
+(insn 179 178 180 28 (parallel [
+            (set (reg:SI 144)
+                (plus:SI (reg:SI 144)
+                    (reg:SI 143)))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":65:32 -1
+     (expr_list:REG_EQUAL (mult:SI (reg:SI 143)
+            (const_int 5 [0x5]))
+        (nil)))
+(insn 180 179 181 28 (parallel [
+            (set (reg:SI 145)
+                (ashift:SI (reg:SI 144)
+                    (const_int 3 [0x3])))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":65:32 -1
+     (nil))
+(insn 181 180 182 28 (set (reg:SI 144)
+        (reg:SI 145)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":65:32 -1
+     (expr_list:REG_EQUAL (mult:SI (reg:SI 143)
+            (const_int 40 [0x28]))
+        (nil)))
+(insn 182 181 183 28 (parallel [
+            (set (reg/f:SI 93 [ _12 ])
+                (plus:SI (reg:SI 142)
+                    (reg:SI 144)))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":65:32 -1
+     (nil))
+(insn 183 182 184 28 (set (mem:SI (plus:SI (reg/f:SI 79 virtual-outgoing-args)
+                (const_int 4 [0x4])) [0  S4 A32])
+        (reg/f:SI 92 [ _11 ])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":65:17 -1
+     (nil))
+(insn 184 183 185 28 (set (mem:SI (reg/f:SI 79 virtual-outgoing-args) [0  S4 A32])
+        (reg/f:SI 93 [ _12 ])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":65:17 -1
+     (nil))
+(call_insn 185 184 186 28 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("strcpy") [flags 0x43]  <function_decl 06bb0bb8 strcpy>) [0 __builtin_strcpy S1 A8])
+            (const_int 8 [0x8]))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":65:17 -1
+     (expr_list:REG_EH_REGION (const_int 0 [0])
+        (nil))
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 79 virtual-outgoing-args) [0  S4 A32]))
+        (expr_list:SI (use (mem/f:SI (plus:SI (reg/f:SI 79 virtual-outgoing-args)
+                        (const_int 4 [0x4])) [0  S4 A32]))
+            (nil))))
+(insn 186 185 187 28 (parallel [
+            (set (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                        (const_int -40 [0xffffffffffffffd8])) [2 j+0 S4 A32])
+                (plus:SI (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                            (const_int -40 [0xffffffffffffffd8])) [2 j+0 S4 A32])
+                    (const_int 1 [0x1])))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":63:45 -1
+     (nil))
+(code_label 187 186 188 29 20 (nil) [1 uses])
+(note 188 187 190 29 [bb 29] NOTE_INSN_BASIC_BLOCK)
+(insn 190 188 191 29 (set (reg:SI 146)
+        (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                (const_int -40 [0xffffffffffffffd8])) [2 j+0 S4 A32])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":63:13 -1
+     (nil))
+(insn 191 190 192 29 (set (reg:CCGC 17 flags)
+        (compare:CCGC (reg:SI 146)
+            (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                    (const_int -52 [0xffffffffffffffcc])) [2 sizeArray+0 S4 A32]))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":63:13 -1
+     (nil))
+(jump_insn 192 191 193 29 (set (pc)
+        (if_then_else (lt (reg:CCGC 17 flags)
+                (const_int 0 [0]))
+            (label_ref 189)
+            (pc))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":63:13 -1
+     (nil)
+ -> 189)
+(note 193 192 194 30 [bb 30] NOTE_INSN_BASIC_BLOCK)
+(insn 194 193 195 30 (set (reg:SI 147)
+        (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                (const_int -52 [0xffffffffffffffcc])) [2 sizeArray+0 S4 A32])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":69:26 -1
+     (nil))
+(insn 195 194 196 30 (set (mem:SI (plus:SI (reg/f:SI 79 virtual-outgoing-args)
+                (const_int 4 [0x4])) [0  S4 A32])
+        (reg:SI 147)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":69:26 -1
+     (nil))
+(insn 196 195 197 30 (parallel [
+            (set (reg:SI 148)
+                (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                    (const_int -3264 [0xfffffffffffff340])))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":69:26 -1
+     (nil))
+(insn 197 196 198 30 (set (mem/f:SI (reg/f:SI 79 virtual-outgoing-args) [0  S4 A32])
+        (reg:SI 148)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":69:26 -1
+     (nil))
+(call_insn 198 197 199 30 (set (reg:DF 8 st)
+        (call (mem:QI (symbol_ref:SI ("cosineSimilarity") [flags 0x3]  <function_decl 06c49ca8 cosineSimilarity>) [0 cosineSimilarity S1 A8])
+            (const_int 8 [0x8]))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":69:26 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 79 virtual-outgoing-args) [0  S4 A32]))
+        (expr_list:SI (use (mem:SI (plus:SI (reg/f:SI 79 virtual-outgoing-args)
+                        (const_int 4 [0x4])) [0  S4 A32]))
+            (nil))))
+(insn 199 198 200 30 (set (reg:DF 149)
+        (reg:DF 8 st)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":69:26 -1
+     (nil))
+(insn 200 199 201 30 (set (mem/c:DF (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                (const_int -64 [0xffffffffffffffc0])) [3 similarity+0 S8 A64])
+        (reg:DF 149)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":69:26 -1
+     (nil))
+(insn 201 200 202 30 (set (reg:DF 150)
+        (mem/c:DF (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                (const_int -64 [0xffffffffffffffc0])) [3 similarity+0 S8 A64])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":71:15 -1
+     (nil))
+(insn 202 201 203 30 (set (reg:HI 151)
+        (unspec:HI [
+                (compare:CCFP (reg:DF 150)
+                    (mem/c:DF (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                            (const_int -16 [0xfffffffffffffff0])) [3 previous_similarity+0 S8 A64]))
+            ] UNSPEC_FNSTSW)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":71:15 -1
+     (nil))
+(insn 203 202 204 30 (set (reg:CC 17 flags)
+        (unspec:CC [
+                (reg:HI 151)
+            ] UNSPEC_SAHF)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":71:15 -1
+     (nil))
+(jump_insn 204 203 311 30 (set (pc)
+        (if_then_else (gt (reg:CCFP 17 flags)
+                (const_int 0 [0]))
+            (label_ref:SI 317)
+            (pc))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":71:15 513 {*jcc}
+     (nil)
+ -> 317)
+(note 311 204 205 31 [bb 31] NOTE_INSN_BASIC_BLOCK)
+(jump_insn 205 311 206 31 (set (pc)
+        (label_ref 244)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":71:15 -1
+     (nil)
+ -> 244)
+(barrier 206 205 317)
+(code_label 317 206 208 33 35 (nil) [1 uses])
+(note 208 317 209 33 [bb 33] NOTE_INSN_BASIC_BLOCK)
+(insn 209 208 210 33 (set (reg:SI 152)
+        (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                (const_int -52 [0xffffffffffffffcc])) [2 sizeArray+0 S4 A32])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":72:34 -1
+     (nil))
+(insn 210 209 211 33 (set (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                (const_int -4 [0xfffffffffffffffc])) [2 similarSizeArray+0 S4 A32])
+        (reg:SI 152)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":72:34 -1
+     (nil))
+(insn 211 210 212 33 (set (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                (const_int -44 [0xffffffffffffffd4])) [2 x+0 S4 A32])
+        (const_int 0 [0])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":73:26 -1
+     (nil))
+(jump_insn 212 211 213 33 (set (pc)
+        (label_ref 235)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":73:17 -1
+     (nil)
+ -> 235)
+(barrier 213 212 237)
+(code_label 237 213 214 34 25 (nil) [1 uses])
+(note 214 237 215 34 [bb 34] NOTE_INSN_BASIC_BLOCK)
+(insn 215 214 216 34 (parallel [
+            (set (reg:SI 153)
+                (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                    (const_int -3264 [0xfffffffffffff340])))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":74:56 -1
+     (nil))
+(insn 216 215 217 34 (set (reg:SI 154)
+        (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                (const_int -44 [0xffffffffffffffd4])) [2 x+0 S4 A32])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":74:56 -1
+     (nil))
+(insn 217 216 218 34 (set (reg:SI 155)
+        (reg:SI 154)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":74:56 -1
+     (nil))
+(insn 218 217 219 34 (parallel [
+            (set (reg:SI 155)
+                (ashift:SI (reg:SI 155)
+                    (const_int 2 [0x2])))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":74:56 -1
+     (nil))
+(insn 219 218 220 34 (parallel [
+            (set (reg:SI 155)
+                (plus:SI (reg:SI 155)
+                    (reg:SI 154)))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":74:56 -1
+     (expr_list:REG_EQUAL (mult:SI (reg:SI 154)
+            (const_int 5 [0x5]))
+        (nil)))
+(insn 220 219 221 34 (parallel [
+            (set (reg:SI 156)
+                (ashift:SI (reg:SI 155)
+                    (const_int 3 [0x3])))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":74:56 -1
+     (nil))
+(insn 221 220 222 34 (set (reg:SI 155)
+        (reg:SI 156)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":74:56 -1
+     (expr_list:REG_EQUAL (mult:SI (reg:SI 154)
+            (const_int 40 [0x28]))
+        (nil)))
+(insn 222 221 223 34 (parallel [
+            (set (reg/f:SI 94 [ _13 ])
+                (plus:SI (reg:SI 153)
+                    (reg:SI 155)))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":74:56 -1
+     (nil))
+(insn 223 222 224 34 (parallel [
+            (set (reg:SI 157)
+                (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                    (const_int -1664 [0xfffffffffffff980])))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":74:43 -1
+     (nil))
+(insn 224 223 225 34 (set (reg:SI 158)
+        (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                (const_int -44 [0xffffffffffffffd4])) [2 x+0 S4 A32])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":74:43 -1
+     (nil))
+(insn 225 224 226 34 (set (reg:SI 159)
+        (reg:SI 158)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":74:43 -1
+     (nil))
+(insn 226 225 227 34 (parallel [
+            (set (reg:SI 159)
+                (ashift:SI (reg:SI 159)
+                    (const_int 2 [0x2])))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":74:43 -1
+     (nil))
+(insn 227 226 228 34 (parallel [
+            (set (reg:SI 159)
+                (plus:SI (reg:SI 159)
+                    (reg:SI 158)))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":74:43 -1
+     (expr_list:REG_EQUAL (mult:SI (reg:SI 158)
+            (const_int 5 [0x5]))
+        (nil)))
+(insn 228 227 229 34 (parallel [
+            (set (reg:SI 160)
+                (ashift:SI (reg:SI 159)
+                    (const_int 3 [0x3])))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":74:43 -1
+     (nil))
+(insn 229 228 230 34 (set (reg:SI 159)
+        (reg:SI 160)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":74:43 -1
+     (expr_list:REG_EQUAL (mult:SI (reg:SI 158)
+            (const_int 40 [0x28]))
+        (nil)))
+(insn 230 229 231 34 (parallel [
+            (set (reg/f:SI 95 [ _14 ])
+                (plus:SI (reg:SI 157)
+                    (reg:SI 159)))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":74:43 -1
+     (nil))
+(insn 231 230 232 34 (set (mem:SI (plus:SI (reg/f:SI 79 virtual-outgoing-args)
+                (const_int 4 [0x4])) [0  S4 A32])
+        (reg/f:SI 94 [ _13 ])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":74:21 -1
+     (nil))
+(insn 232 231 233 34 (set (mem:SI (reg/f:SI 79 virtual-outgoing-args) [0  S4 A32])
+        (reg/f:SI 95 [ _14 ])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":74:21 -1
+     (nil))
+(call_insn 233 232 234 34 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("strcpy") [flags 0x43]  <function_decl 06bb0bb8 strcpy>) [0 __builtin_strcpy S1 A8])
+            (const_int 8 [0x8]))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":74:21 -1
+     (expr_list:REG_EH_REGION (const_int 0 [0])
+        (nil))
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 79 virtual-outgoing-args) [0  S4 A32]))
+        (expr_list:SI (use (mem/f:SI (plus:SI (reg/f:SI 79 virtual-outgoing-args)
+                        (const_int 4 [0x4])) [0  S4 A32]))
+            (nil))))
+(insn 234 233 235 34 (parallel [
+            (set (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                        (const_int -44 [0xffffffffffffffd4])) [2 x+0 S4 A32])
+                (plus:SI (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                            (const_int -44 [0xffffffffffffffd4])) [2 x+0 S4 A32])
+                    (const_int 1 [0x1])))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":73:49 -1
+     (nil))
+(code_label 235 234 236 35 24 (nil) [1 uses])
+(note 236 235 238 35 [bb 35] NOTE_INSN_BASIC_BLOCK)
+(insn 238 236 239 35 (set (reg:SI 161)
+        (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                (const_int -44 [0xffffffffffffffd4])) [2 x+0 S4 A32])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":73:17 -1
+     (nil))
+(insn 239 238 240 35 (set (reg:CCGC 17 flags)
+        (compare:CCGC (reg:SI 161)
+            (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                    (const_int -52 [0xffffffffffffffcc])) [2 sizeArray+0 S4 A32]))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":73:17 -1
+     (nil))
+(jump_insn 240 239 241 35 (set (pc)
+        (if_then_else (lt (reg:CCGC 17 flags)
+                (const_int 0 [0]))
+            (label_ref 237)
+            (pc))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":73:17 -1
+     (nil)
+ -> 237)
+(note 241 240 242 36 [bb 36] NOTE_INSN_BASIC_BLOCK)
+(insn 242 241 243 36 (set (reg:DF 162)
+        (mem/c:DF (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                (const_int -64 [0xffffffffffffffc0])) [3 similarity+0 S8 A64])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":76:37 -1
+     (nil))
+(insn 243 242 244 36 (set (mem/c:DF (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                (const_int -16 [0xfffffffffffffff0])) [3 previous_similarity+0 S8 A64])
+        (reg:DF 162)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":76:37 -1
+     (nil))
+(code_label 244 243 245 37 22 (nil) [1 uses])
+(note 245 244 246 37 [bb 37] NOTE_INSN_BASIC_BLOCK)
+(insn 246 245 247 37 (parallel [
+            (set (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                        (const_int -36 [0xffffffffffffffdc])) [2 i+0 S4 A32])
+                (plus:SI (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                            (const_int -36 [0xffffffffffffffdc])) [2 i+0 S4 A32])
+                    (const_int 1 [0x1])))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":59:51 -1
+     (nil))
+(code_label 247 246 248 38 19 (nil) [1 uses])
+(note 248 247 249 38 [bb 38] NOTE_INSN_BASIC_BLOCK)
+(insn 249 248 251 38 (set (reg:SI 96 [ elementInCorpusRoom.1_15 ])
+        (mem/c:SI (symbol_ref:SI ("elementInCorpusRoom") [flags 0x42]  <var_decl 06c7c790 elementInCorpusRoom>) [2 elementInCorpusRoom+0 S4 A32])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":59:27 -1
+     (nil))
+(insn 251 249 252 38 (set (reg:CCGC 17 flags)
+        (compare:CCGC (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                    (const_int -36 [0xffffffffffffffdc])) [2 i+0 S4 A32])
+            (reg:SI 96 [ elementInCorpusRoom.1_15 ]))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":59:9 -1
+     (nil))
+(jump_insn 252 251 253 38 (set (pc)
+        (if_then_else (lt (reg:CCGC 17 flags)
+                (const_int 0 [0]))
+            (label_ref 250)
+            (pc))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":59:9 -1
+     (nil)
+ -> 250)
+(note 253 252 254 39 [bb 39] NOTE_INSN_BASIC_BLOCK)
+(insn 254 253 255 39 (set (reg:DF 163)
+        (mem/c:DF (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                (const_int -16 [0xfffffffffffffff0])) [3 previous_similarity+0 S8 A64])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":79:11 -1
+     (nil))
+(insn 255 254 256 39 (set (reg:HI 164)
+        (unspec:HI [
+                (compare:CCFP (reg:DF 163)
+                    (const_double:DF 0.0 [0x0.0p+0]))
+            ] UNSPEC_FNSTSW)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":79:11 -1
+     (nil))
+(insn 256 255 257 39 (set (reg:CC 17 flags)
+        (unspec:CC [
+                (reg:HI 164)
+            ] UNSPEC_SAHF)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":79:11 -1
+     (nil))
+(jump_insn 257 256 313 39 (set (pc)
+        (if_then_else (gt (reg:CCFP 17 flags)
+                (const_int 0 [0]))
+            (label_ref:SI 318)
+            (pc))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":79:11 513 {*jcc}
+     (nil)
+ -> 318)
+(note 313 257 258 40 [bb 40] NOTE_INSN_BASIC_BLOCK)
+(jump_insn 258 313 259 40 (set (pc)
+        (label_ref 289)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":79:11 -1
+     (nil)
+ -> 289)
+(barrier 259 258 318)
+(code_label 318 259 261 42 36 (nil) [1 uses])
+(note 261 318 262 42 [bb 42] NOTE_INSN_BASIC_BLOCK)
+(insn 262 261 263 42 (set (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                (const_int -48 [0xffffffffffffffd0])) [2 i+0 S4 A32])
+        (const_int 0 [0])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":80:22 -1
+     (nil))
+(jump_insn 263 262 264 42 (set (pc)
+        (label_ref 278)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":80:13 -1
+     (nil)
+ -> 278)
+(barrier 264 263 280)
+(code_label 280 264 265 43 30 (nil) [1 uses])
+(note 265 280 266 43 [bb 43] NOTE_INSN_BASIC_BLOCK)
+(insn 266 265 267 43 (parallel [
+            (set (reg:SI 165)
+                (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                    (const_int -1664 [0xfffffffffffff980])))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":81:46 -1
+     (nil))
+(insn 267 266 268 43 (set (reg:SI 166)
+        (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                (const_int -48 [0xffffffffffffffd0])) [2 i+0 S4 A32])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":81:46 -1
+     (nil))
+(insn 268 267 269 43 (set (reg:SI 167)
+        (reg:SI 166)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":81:46 -1
+     (nil))
+(insn 269 268 270 43 (parallel [
+            (set (reg:SI 167)
+                (ashift:SI (reg:SI 167)
+                    (const_int 2 [0x2])))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":81:46 -1
+     (nil))
+(insn 270 269 271 43 (parallel [
+            (set (reg:SI 167)
+                (plus:SI (reg:SI 167)
+                    (reg:SI 166)))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":81:46 -1
+     (expr_list:REG_EQUAL (mult:SI (reg:SI 166)
+            (const_int 5 [0x5]))
+        (nil)))
+(insn 271 270 272 43 (parallel [
+            (set (reg:SI 168)
+                (ashift:SI (reg:SI 167)
+                    (const_int 3 [0x3])))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":81:46 -1
+     (nil))
+(insn 272 271 273 43 (set (reg:SI 167)
+        (reg:SI 168)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":81:46 -1
+     (expr_list:REG_EQUAL (mult:SI (reg:SI 166)
+            (const_int 40 [0x28]))
+        (nil)))
+(insn 273 272 274 43 (parallel [
+            (set (reg/f:SI 97 [ _16 ])
+                (plus:SI (reg:SI 165)
+                    (reg:SI 167)))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":81:46 -1
+     (nil))
+(insn 274 273 275 43 (set (mem:SI (plus:SI (reg/f:SI 79 virtual-outgoing-args)
+                (const_int 4 [0x4])) [0  S4 A32])
+        (reg/f:SI 97 [ _16 ])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":81:17 -1
+     (nil))
+(insn 275 274 276 43 (set (mem:SI (reg/f:SI 79 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref/f:SI ("*LC1") [flags 0x2]  <var_decl 06c9c8f0 *LC1>)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":81:17 -1
+     (nil))
+(call_insn 276 275 277 43 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("printf") [flags 0x3]  <function_decl 06c67870 printf>) [0 printf S1 A8])
+            (const_int 8 [0x8]))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":81:17 -1
+     (expr_list:REG_EH_REGION (const_int 0 [0])
+        (nil))
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 79 virtual-outgoing-args) [0  S4 A32]))
+        (expr_list:SI (use (mem/f:SI (plus:SI (reg/f:SI 79 virtual-outgoing-args)
+                        (const_int 4 [0x4])) [0  S4 A32]))
+            (nil))))
+(insn 277 276 278 43 (parallel [
+            (set (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                        (const_int -48 [0xffffffffffffffd0])) [2 i+0 S4 A32])
+                (plus:SI (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                            (const_int -48 [0xffffffffffffffd0])) [2 i+0 S4 A32])
+                    (const_int 1 [0x1])))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":80:52 -1
+     (nil))
+(code_label 278 277 279 44 29 (nil) [1 uses])
+(note 279 278 281 44 [bb 44] NOTE_INSN_BASIC_BLOCK)
+(insn 281 279 282 44 (set (reg:SI 169)
+        (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                (const_int -48 [0xffffffffffffffd0])) [2 i+0 S4 A32])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":80:13 -1
+     (nil))
+(insn 282 281 283 44 (set (reg:CCGC 17 flags)
+        (compare:CCGC (reg:SI 169)
+            (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                    (const_int -4 [0xfffffffffffffffc])) [2 similarSizeArray+0 S4 A32]))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":80:13 -1
+     (nil))
+(jump_insn 283 282 284 44 (set (pc)
+        (if_then_else (lt (reg:CCGC 17 flags)
+                (const_int 0 [0]))
+            (label_ref 280)
+            (pc))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":80:13 -1
+     (nil)
+ -> 280)
+(note 284 283 285 45 [bb 45] NOTE_INSN_BASIC_BLOCK)
+(insn 285 284 286 45 (set (mem:SI (reg/f:SI 79 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref/f:SI ("*LC2") [flags 0x2]  <var_decl 06c9c948 *LC2>)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":83:13 -1
+     (nil))
+(call_insn 286 285 287 45 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("printf") [flags 0x3]  <function_decl 06c67870 printf>) [0 printf S1 A8])
+            (const_int 4 [0x4]))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":83:13 -1
+     (expr_list:REG_EH_REGION (const_int 0 [0])
+        (nil))
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 79 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(jump_insn 287 286 288 45 (set (pc)
+        (label_ref 293)) -1
+     (nil)
+ -> 293)
+(barrier 288 287 289)
+(code_label 289 288 290 46 27 (nil) [1 uses])
+(note 290 289 291 46 [bb 46] NOTE_INSN_BASIC_BLOCK)
+(insn 291 290 292 46 (set (mem:SI (reg/f:SI 79 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref/f:SI ("*LC3") [flags 0x2]  <var_decl 06c9c9a0 *LC3>)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":86:13 -1
+     (nil))
+(call_insn 292 291 293 46 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("printf") [flags 0x3]  <function_decl 06c67870 printf>) [0 printf S1 A8])
+            (const_int 4 [0x4]))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":86:13 -1
+     (expr_list:REG_EH_REGION (const_int 0 [0])
+        (nil))
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 79 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(code_label 293 292 294 47 31 (nil) [1 uses])
+(note 294 293 295 47 [bb 47] NOTE_INSN_BASIC_BLOCK)
+(insn 295 294 298 47 (set (reg:SI 98 [ _33 ])
+        (const_int 1 [0x1])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":89:16 -1
+     (nil))
+(code_label 298 295 299 49 32 (nil) [1 uses])
+(note 299 298 300 49 [bb 49] NOTE_INSN_BASIC_BLOCK)
+(insn 300 299 304 49 (set (reg:SI 99 [ <retval> ])
+        (reg:SI 98 [ _33 ])) -1
+     (nil))
+(insn 304 300 305 49 (set (reg/i:SI 0 ax)
+        (reg:SI 99 [ <retval> ])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":92:1 -1
+     (nil))
+(insn 305 304 0 49 (use (reg/i:SI 0 ax)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":92:1 -1
+     (nil))
+
+;; Function cosineSimilarity (cosineSimilarity, funcdef_no=21, decl_uid=2017, cgraph_uid=22, symbol_order=21)
+
+
+;; Generating RTL for gimple basic block 2
+
+;; Generating RTL for gimple basic block 3
+
+;; Generating RTL for gimple basic block 4
+
+;; Generating RTL for gimple basic block 5
+
+;; Generating RTL for gimple basic block 6
+
+;; Generating RTL for gimple basic block 7
+
+;; Generating RTL for gimple basic block 8
+
+;; Generating RTL for gimple basic block 9
+
+;; Generating RTL for gimple basic block 10
+
+;; Generating RTL for gimple basic block 11
+
+;; Generating RTL for gimple basic block 12
+
+;; Generating RTL for gimple basic block 13
+
+;; Generating RTL for gimple basic block 14
+
+;; Generating RTL for gimple basic block 15
+
+;; Generating RTL for gimple basic block 16
+
+;; Generating RTL for gimple basic block 17
+
+;; Generating RTL for gimple basic block 18
+
+;; Generating RTL for gimple basic block 19
+
+;; Generating RTL for gimple basic block 20
+
+
+try_optimize_cfg iteration 1
+
+Merging block 3 into block 2...
+Merged blocks 2 and 3.
+Merged 2 and 3 without moving.
+Forwarding edge 11->12 to 21 failed.
+Merging block 22 into block 21...
+Merged blocks 21 and 22.
+Merged 21 and 22 without moving.
+Removing jump 132.
+Merging block 23 into block 21...
+Merged blocks 21 and 23.
+Merged 21 and 23 without moving.
+
+
+try_optimize_cfg iteration 2
+
+Forwarding edge 11->12 to 21 failed.
+
+
+;;
+;; Full RTL generated for this function:
+;;
+(note 1 0 3 NOTE_INSN_DELETED)
+(note 3 1 2 2 [bb 2] NOTE_INSN_BASIC_BLOCK)
+(note 2 3 5 2 NOTE_INSN_FUNCTION_BEG)
+(insn 5 2 6 2 (set (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                (const_int -4 [0xfffffffffffffffc])) [2 dotproduct+0 S4 A32])
+        (const_int 0 [0])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":100:9 -1
+     (nil))
+(insn 6 5 7 2 (set (reg:DF 107)
+        (mem/u/c:DF (symbol_ref/u:SI ("*LC0") [flags 0x2]) [0  S8 A64])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":101:12 -1
+     (nil))
+(insn 7 6 8 2 (set (mem/c:DF (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                (const_int -32 [0xffffffffffffffe0])) [3 similarity+0 S8 A64])
+        (reg:DF 107)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":101:12 -1
+     (nil))
+(insn 8 7 9 2 (set (reg:SI 108)
+        (mem/c:SI (symbol_ref:SI ("lenUserInput") [flags 0x42]  <var_decl 06c7c898 lenUserInput>) [2 lenUserInput+0 S4 A32])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":103:9 -1
+     (nil))
+(insn 9 8 10 2 (set (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                (const_int -36 [0xffffffffffffffdc])) [2 magnitudeA+0 S4 A32])
+        (reg:SI 108)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":103:9 -1
+     (nil))
+(insn 10 9 11 2 (set (reg:SI 109)
+        (mem/c:SI (plus:SI (reg/f:SI 76 virtual-incoming-args)
+                (const_int 4 [0x4])) [2 sizeArray+0 S4 A32])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":104:9 -1
+     (nil))
+(insn 11 10 12 2 (set (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                (const_int -40 [0xffffffffffffffd8])) [2 magnitudeB+0 S4 A32])
+        (reg:SI 109)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":104:9 -1
+     (nil))
+(insn 12 11 13 2 (set (reg:SI 82 [ lenUserInput.3_1 ])
+        (mem/c:SI (symbol_ref:SI ("lenUserInput") [flags 0x42]  <var_decl 06c7c898 lenUserInput>) [2 lenUserInput+0 S4 A32])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":109:21 -1
+     (nil))
+(insn 13 12 14 2 (set (reg:CCGC 17 flags)
+        (compare:CCGC (mem/c:SI (plus:SI (reg/f:SI 76 virtual-incoming-args)
+                    (const_int 4 [0x4])) [2 sizeArray+0 S4 A32])
+            (reg:SI 82 [ lenUserInput.3_1 ]))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":109:7 -1
+     (nil))
+(jump_insn 14 13 15 2 (set (pc)
+        (if_then_else (gt (reg:CCGC 17 flags)
+                (const_int 0 [0]))
+            (label_ref 64)
+            (pc))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":109:7 -1
+     (nil)
+ -> 64)
+(note 15 14 16 4 [bb 4] NOTE_INSN_BASIC_BLOCK)
+(insn 16 15 17 4 (set (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                (const_int -8 [0xfffffffffffffff8])) [2 i+0 S4 A32])
+        (const_int 0 [0])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":110:17 -1
+     (nil))
+(jump_insn 17 16 18 4 (set (pc)
+        (label_ref 55)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":110:9 -1
+     (nil)
+ -> 55)
+(barrier 18 17 58)
+(code_label 58 18 19 5 45 (nil) [1 uses])
+(note 19 58 20 5 [bb 5] NOTE_INSN_BASIC_BLOCK)
+(insn 20 19 21 5 (set (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                (const_int -12 [0xfffffffffffffff4])) [2 j+0 S4 A32])
+        (const_int 0 [0])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":112:21 -1
+     (nil))
+(jump_insn 21 20 22 5 (set (pc)
+        (label_ref 47)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":112:13 -1
+     (nil)
+ -> 47)
+(barrier 22 21 49)
+(code_label 49 22 23 6 44 (nil) [1 uses])
+(note 23 49 24 6 [bb 6] NOTE_INSN_BASIC_BLOCK)
+(insn 24 23 25 6 (set (reg:SI 83 [ j.4_2 ])
+        (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                (const_int -12 [0xfffffffffffffff4])) [2 j+0 S4 A32])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":116:49 -1
+     (nil))
+(insn 25 24 26 6 (set (reg:SI 110)
+        (reg:SI 83 [ j.4_2 ])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":116:49 -1
+     (nil))
+(insn 26 25 27 6 (parallel [
+            (set (reg:SI 110)
+                (ashift:SI (reg:SI 110)
+                    (const_int 2 [0x2])))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":116:49 -1
+     (nil))
+(insn 27 26 28 6 (parallel [
+            (set (reg:SI 110)
+                (plus:SI (reg:SI 110)
+                    (reg:SI 83 [ j.4_2 ])))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":116:49 -1
+     (expr_list:REG_EQUAL (mult:SI (reg:SI 83 [ j.4_2 ])
+            (const_int 5 [0x5]))
+        (nil)))
+(insn 28 27 29 6 (parallel [
+            (set (reg:SI 111)
+                (ashift:SI (reg:SI 110)
+                    (const_int 3 [0x3])))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":116:49 -1
+     (nil))
+(insn 29 28 30 6 (set (reg:SI 110)
+        (reg:SI 111)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":116:49 -1
+     (expr_list:REG_EQUAL (mult:SI (reg:SI 83 [ j.4_2 ])
+            (const_int 40 [0x28]))
+        (nil)))
+(insn 30 29 31 6 (set (reg:SI 84 [ _3 ])
+        (reg:SI 110)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":116:49 -1
+     (nil))
+(insn 31 30 32 6 (set (reg/f:SI 112)
+        (mem/f/c:SI (reg/f:SI 76 virtual-incoming-args) [1 sentence+0 S4 A32])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":116:49 -1
+     (nil))
+(insn 32 31 33 6 (parallel [
+            (set (reg/f:SI 85 [ _4 ])
+                (plus:SI (reg:SI 84 [ _3 ])
+                    (reg/f:SI 112)))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":116:49 -1
+     (expr_list:REG_EQUAL (plus:SI (mem/f/c:SI (reg/f:SI 76 virtual-incoming-args) [1 sentence+0 S4 A32])
+            (reg:SI 84 [ _3 ]))
+        (nil)))
+(insn 33 32 34 6 (set (reg:SI 114)
+        (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                (const_int -8 [0xfffffffffffffff8])) [2 i+0 S4 A32])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":116:36 -1
+     (nil))
+(insn 34 33 35 6 (parallel [
+            (set (reg:SI 113)
+                (mult:SI (reg:SI 114)
+                    (const_int 200 [0xc8])))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":116:36 -1
+     (nil))
+(insn 35 34 36 6 (parallel [
+            (set (reg/f:SI 86 [ _5 ])
+                (plus:SI (reg:SI 113)
+                    (symbol_ref:SI ("userInput") [flags 0x42]  <var_decl 06c7c840 userInput>)))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":116:36 -1
+     (nil))
+(insn 36 35 37 6 (set (mem:SI (plus:SI (reg/f:SI 79 virtual-outgoing-args)
+                (const_int 4 [0x4])) [0  S4 A32])
+        (reg/f:SI 85 [ _4 ])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":116:20 -1
+     (nil))
+(insn 37 36 38 6 (set (mem:SI (reg/f:SI 79 virtual-outgoing-args) [0  S4 A32])
+        (reg/f:SI 86 [ _5 ])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":116:20 -1
+     (nil))
+(call_insn/i 38 37 39 6 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("strcmp") [flags 0x43]  <function_decl 06bb0ac8 strcmp>) [0 __builtin_strcmp S1 A8])
+            (const_int 8 [0x8]))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":116:20 -1
+     (expr_list:REG_EH_REGION (const_int 0 [0])
+        (nil))
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 79 virtual-outgoing-args) [0  S4 A32]))
+        (expr_list:SI (use (mem/f:SI (plus:SI (reg/f:SI 79 virtual-outgoing-args)
+                        (const_int 4 [0x4])) [0  S4 A32]))
+            (nil))))
+(insn 39 38 40 6 (set (reg:SI 87 [ _6 ])
+        (reg:SI 0 ax)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":116:20 -1
+     (nil))
+(insn 40 39 41 6 (set (reg:CCZ 17 flags)
+        (compare:CCZ (reg:SI 87 [ _6 ])
+            (const_int 0 [0]))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":116:19 -1
+     (nil))
+(jump_insn 41 40 42 6 (set (pc)
+        (if_then_else (ne (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref 44)
+            (pc))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":116:19 -1
+     (nil)
+ -> 44)
+(note 42 41 43 7 [bb 7] NOTE_INSN_BASIC_BLOCK)
+(insn 43 42 44 7 (parallel [
+            (set (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                        (const_int -4 [0xfffffffffffffffc])) [2 dotproduct+0 S4 A32])
+                (plus:SI (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                            (const_int -4 [0xfffffffffffffffc])) [2 dotproduct+0 S4 A32])
+                    (const_int 1 [0x1])))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":119:31 -1
+     (nil))
+(code_label 44 43 45 8 43 (nil) [1 uses])
+(note 45 44 46 8 [bb 8] NOTE_INSN_BASIC_BLOCK)
+(insn 46 45 47 8 (parallel [
+            (set (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                        (const_int -12 [0xfffffffffffffff4])) [2 j+0 S4 A32])
+                (plus:SI (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                            (const_int -12 [0xfffffffffffffff4])) [2 j+0 S4 A32])
+                    (const_int 1 [0x1])))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":112:44 -1
+     (nil))
+(code_label 47 46 48 9 42 (nil) [1 uses])
+(note 48 47 50 9 [bb 9] NOTE_INSN_BASIC_BLOCK)
+(insn 50 48 51 9 (set (reg:SI 115)
+        (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                (const_int -12 [0xfffffffffffffff4])) [2 j+0 S4 A32])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":112:13 -1
+     (nil))
+(insn 51 50 52 9 (set (reg:CCGC 17 flags)
+        (compare:CCGC (reg:SI 115)
+            (mem/c:SI (plus:SI (reg/f:SI 76 virtual-incoming-args)
+                    (const_int 4 [0x4])) [2 sizeArray+0 S4 A32]))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":112:13 -1
+     (nil))
+(jump_insn 52 51 53 9 (set (pc)
+        (if_then_else (lt (reg:CCGC 17 flags)
+                (const_int 0 [0]))
+            (label_ref 49)
+            (pc))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":112:13 -1
+     (nil)
+ -> 49)
+(note 53 52 54 10 [bb 10] NOTE_INSN_BASIC_BLOCK)
+(insn 54 53 55 10 (parallel [
+            (set (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                        (const_int -8 [0xfffffffffffffff8])) [2 i+0 S4 A32])
+                (plus:SI (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                            (const_int -8 [0xfffffffffffffff8])) [2 i+0 S4 A32])
+                    (const_int 1 [0x1])))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":110:43 -1
+     (nil))
+(code_label 55 54 56 11 41 (nil) [1 uses])
+(note 56 55 57 11 [bb 11] NOTE_INSN_BASIC_BLOCK)
+(insn 57 56 59 11 (set (reg:SI 88 [ lenUserInput.5_7 ])
+        (mem/c:SI (symbol_ref:SI ("lenUserInput") [flags 0x42]  <var_decl 06c7c898 lenUserInput>) [2 lenUserInput+0 S4 A32])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":110:26 -1
+     (nil))
+(insn 59 57 60 11 (set (reg:CCGC 17 flags)
+        (compare:CCGC (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                    (const_int -8 [0xfffffffffffffff8])) [2 i+0 S4 A32])
+            (reg:SI 88 [ lenUserInput.5_7 ]))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":110:9 -1
+     (nil))
+(jump_insn 60 59 63 11 (set (pc)
+        (if_then_else (lt (reg:CCGC 17 flags)
+                (const_int 0 [0]))
+            (label_ref 58)
+            (pc))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":110:9 -1
+     (nil)
+ -> 58)
+(note 63 60 61 12 [bb 12] NOTE_INSN_BASIC_BLOCK)
+(jump_insn 61 63 62 12 (set (pc)
+        (label_ref 111)) -1
+     (nil)
+ -> 111)
+(barrier 62 61 64)
+(code_label 64 62 65 13 40 (nil) [1 uses])
+(note 65 64 66 13 [bb 13] NOTE_INSN_BASIC_BLOCK)
+(insn 66 65 67 13 (set (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                (const_int -16 [0xfffffffffffffff0])) [2 i+0 S4 A32])
+        (const_int 0 [0])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":126:17 -1
+     (nil))
+(jump_insn 67 66 68 13 (set (pc)
+        (label_ref 105)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":126:9 -1
+     (nil)
+ -> 105)
+(barrier 68 67 107)
+(code_label 107 68 69 14 51 (nil) [1 uses])
+(note 69 107 70 14 [bb 14] NOTE_INSN_BASIC_BLOCK)
+(insn 70 69 71 14 (set (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                (const_int -20 [0xffffffffffffffec])) [2 j+0 S4 A32])
+        (const_int 0 [0])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":128:21 -1
+     (nil))
+(jump_insn 71 70 72 14 (set (pc)
+        (label_ref 97)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":128:13 -1
+     (nil)
+ -> 97)
+(barrier 72 71 100)
+(code_label 100 72 73 15 50 (nil) [1 uses])
+(note 73 100 74 15 [bb 15] NOTE_INSN_BASIC_BLOCK)
+(insn 74 73 75 15 (set (reg:SI 89 [ i.6_8 ])
+        (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                (const_int -16 [0xfffffffffffffff0])) [2 i+0 S4 A32])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":131:49 -1
+     (nil))
+(insn 75 74 76 15 (set (reg:SI 116)
+        (reg:SI 89 [ i.6_8 ])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":131:49 -1
+     (nil))
+(insn 76 75 77 15 (parallel [
+            (set (reg:SI 116)
+                (ashift:SI (reg:SI 116)
+                    (const_int 2 [0x2])))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":131:49 -1
+     (nil))
+(insn 77 76 78 15 (parallel [
+            (set (reg:SI 116)
+                (plus:SI (reg:SI 116)
+                    (reg:SI 89 [ i.6_8 ])))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":131:49 -1
+     (expr_list:REG_EQUAL (mult:SI (reg:SI 89 [ i.6_8 ])
+            (const_int 5 [0x5]))
+        (nil)))
+(insn 78 77 79 15 (parallel [
+            (set (reg:SI 117)
+                (ashift:SI (reg:SI 116)
+                    (const_int 3 [0x3])))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":131:49 -1
+     (nil))
+(insn 79 78 80 15 (set (reg:SI 116)
+        (reg:SI 117)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":131:49 -1
+     (expr_list:REG_EQUAL (mult:SI (reg:SI 89 [ i.6_8 ])
+            (const_int 40 [0x28]))
+        (nil)))
+(insn 80 79 81 15 (set (reg:SI 90 [ _9 ])
+        (reg:SI 116)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":131:49 -1
+     (nil))
+(insn 81 80 82 15 (set (reg/f:SI 118)
+        (mem/f/c:SI (reg/f:SI 76 virtual-incoming-args) [1 sentence+0 S4 A32])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":131:49 -1
+     (nil))
+(insn 82 81 83 15 (parallel [
+            (set (reg/f:SI 91 [ _10 ])
+                (plus:SI (reg:SI 90 [ _9 ])
+                    (reg/f:SI 118)))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":131:49 -1
+     (expr_list:REG_EQUAL (plus:SI (mem/f/c:SI (reg/f:SI 76 virtual-incoming-args) [1 sentence+0 S4 A32])
+            (reg:SI 90 [ _9 ]))
+        (nil)))
+(insn 83 82 84 15 (set (reg:SI 120)
+        (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                (const_int -20 [0xffffffffffffffec])) [2 j+0 S4 A32])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":131:36 -1
+     (nil))
+(insn 84 83 85 15 (parallel [
+            (set (reg:SI 119)
+                (mult:SI (reg:SI 120)
+                    (const_int 200 [0xc8])))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":131:36 -1
+     (nil))
+(insn 85 84 86 15 (parallel [
+            (set (reg/f:SI 92 [ _11 ])
+                (plus:SI (reg:SI 119)
+                    (symbol_ref:SI ("userInput") [flags 0x42]  <var_decl 06c7c840 userInput>)))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":131:36 -1
+     (nil))
+(insn 86 85 87 15 (set (mem:SI (plus:SI (reg/f:SI 79 virtual-outgoing-args)
+                (const_int 4 [0x4])) [0  S4 A32])
+        (reg/f:SI 91 [ _10 ])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":131:20 -1
+     (nil))
+(insn 87 86 88 15 (set (mem:SI (reg/f:SI 79 virtual-outgoing-args) [0  S4 A32])
+        (reg/f:SI 92 [ _11 ])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":131:20 -1
+     (nil))
+(call_insn/i 88 87 89 15 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("strcmp") [flags 0x43]  <function_decl 06bb0ac8 strcmp>) [0 __builtin_strcmp S1 A8])
+            (const_int 8 [0x8]))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":131:20 -1
+     (expr_list:REG_EH_REGION (const_int 0 [0])
+        (nil))
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 79 virtual-outgoing-args) [0  S4 A32]))
+        (expr_list:SI (use (mem/f:SI (plus:SI (reg/f:SI 79 virtual-outgoing-args)
+                        (const_int 4 [0x4])) [0  S4 A32]))
+            (nil))))
+(insn 89 88 90 15 (set (reg:SI 93 [ _12 ])
+        (reg:SI 0 ax)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":131:20 -1
+     (nil))
+(insn 90 89 91 15 (set (reg:CCZ 17 flags)
+        (compare:CCZ (reg:SI 93 [ _12 ])
+            (const_int 0 [0]))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":131:19 -1
+     (nil))
+(jump_insn 91 90 92 15 (set (pc)
+        (if_then_else (ne (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref 94)
+            (pc))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":131:19 -1
+     (nil)
+ -> 94)
+(note 92 91 93 16 [bb 16] NOTE_INSN_BASIC_BLOCK)
+(insn 93 92 94 16 (parallel [
+            (set (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                        (const_int -4 [0xfffffffffffffffc])) [2 dotproduct+0 S4 A32])
+                (plus:SI (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                            (const_int -4 [0xfffffffffffffffc])) [2 dotproduct+0 S4 A32])
+                    (const_int 1 [0x1])))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":133:31 -1
+     (nil))
+(code_label 94 93 95 17 49 (nil) [1 uses])
+(note 95 94 96 17 [bb 17] NOTE_INSN_BASIC_BLOCK)
+(insn 96 95 97 17 (parallel [
+            (set (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                        (const_int -20 [0xffffffffffffffec])) [2 j+0 S4 A32])
+                (plus:SI (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                            (const_int -20 [0xffffffffffffffec])) [2 j+0 S4 A32])
+                    (const_int 1 [0x1])))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":128:47 -1
+     (nil))
+(code_label 97 96 98 18 48 (nil) [1 uses])
+(note 98 97 99 18 [bb 18] NOTE_INSN_BASIC_BLOCK)
+(insn 99 98 101 18 (set (reg:SI 94 [ lenUserInput.7_13 ])
+        (mem/c:SI (symbol_ref:SI ("lenUserInput") [flags 0x42]  <var_decl 06c7c898 lenUserInput>) [2 lenUserInput+0 S4 A32])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":128:30 -1
+     (nil))
+(insn 101 99 102 18 (set (reg:CCGC 17 flags)
+        (compare:CCGC (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                    (const_int -20 [0xffffffffffffffec])) [2 j+0 S4 A32])
+            (reg:SI 94 [ lenUserInput.7_13 ]))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":128:13 -1
+     (nil))
+(jump_insn 102 101 103 18 (set (pc)
+        (if_then_else (lt (reg:CCGC 17 flags)
+                (const_int 0 [0]))
+            (label_ref 100)
+            (pc))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":128:13 -1
+     (nil)
+ -> 100)
+(note 103 102 104 19 [bb 19] NOTE_INSN_BASIC_BLOCK)
+(insn 104 103 105 19 (parallel [
+            (set (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                        (const_int -16 [0xfffffffffffffff0])) [2 i+0 S4 A32])
+                (plus:SI (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                            (const_int -16 [0xfffffffffffffff0])) [2 i+0 S4 A32])
+                    (const_int 1 [0x1])))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":126:40 -1
+     (nil))
+(code_label 105 104 106 20 47 (nil) [1 uses])
+(note 106 105 108 20 [bb 20] NOTE_INSN_BASIC_BLOCK)
+(insn 108 106 109 20 (set (reg:SI 121)
+        (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                (const_int -16 [0xfffffffffffffff0])) [2 i+0 S4 A32])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":126:9 -1
+     (nil))
+(insn 109 108 110 20 (set (reg:CCGC 17 flags)
+        (compare:CCGC (reg:SI 121)
+            (mem/c:SI (plus:SI (reg/f:SI 76 virtual-incoming-args)
+                    (const_int 4 [0x4])) [2 sizeArray+0 S4 A32]))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":126:9 -1
+     (nil))
+(jump_insn 110 109 111 20 (set (pc)
+        (if_then_else (lt (reg:CCGC 17 flags)
+                (const_int 0 [0]))
+            (label_ref 107)
+            (pc))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":126:9 -1
+     (nil)
+ -> 107)
+(code_label 111 110 112 21 46 (nil) [1 uses])
+(note 112 111 113 21 [bb 21] NOTE_INSN_BASIC_BLOCK)
+(insn 113 112 114 21 (set (reg:DF 95 [ _14 ])
+        (float:DF (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                    (const_int -4 [0xfffffffffffffffc])) [2 dotproduct+0 S4 A32]))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":139:18 -1
+     (nil))
+(insn 114 113 115 21 (set (reg:XF 96 [ _15 ])
+        (float_extend:XF (reg:DF 95 [ _14 ]))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":139:18 -1
+     (nil))
+(insn 115 114 116 21 (set (reg:DF 97 [ _16 ])
+        (float:DF (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                    (const_int -36 [0xffffffffffffffdc])) [2 magnitudeA+0 S4 A32]))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":139:41 -1
+     (nil))
+(insn 116 115 117 21 (set (mem:DF (reg/f:SI 79 virtual-outgoing-args) [0  S8 A32])
+        (reg:DF 97 [ _16 ])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":139:41 -1
+     (nil))
+(call_insn 117 116 118 21 (set (reg:DF 8 st)
+        (call (mem:QI (symbol_ref:SI ("sqrt") [flags 0x43]  <function_decl 06ba07f8 sqrt>) [0 __builtin_sqrt S1 A8])
+            (const_int 8 [0x8]))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":139:41 -1
+     (expr_list:REG_EH_REGION (const_int 0 [0])
+        (nil))
+    (expr_list:DF (use (mem:DF (reg/f:SI 79 virtual-outgoing-args) [0  S8 A32]))
+        (nil)))
+(insn 118 117 119 21 (set (reg:DF 98 [ _17 ])
+        (reg:DF 8 st)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":139:41 -1
+     (nil))
+(insn 119 118 120 21 (set (reg:XF 99 [ _18 ])
+        (float_extend:XF (reg:DF 98 [ _17 ]))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":139:41 -1
+     (nil))
+(insn 120 119 121 21 (set (reg:DF 100 [ _19 ])
+        (float:DF (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                    (const_int -40 [0xffffffffffffffd8])) [2 magnitudeB+0 S4 A32]))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":139:60 -1
+     (nil))
+(insn 121 120 122 21 (set (mem:DF (reg/f:SI 79 virtual-outgoing-args) [0  S8 A32])
+        (reg:DF 100 [ _19 ])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":139:60 -1
+     (nil))
+(call_insn 122 121 123 21 (set (reg:DF 8 st)
+        (call (mem:QI (symbol_ref:SI ("sqrt") [flags 0x43]  <function_decl 06ba07f8 sqrt>) [0 __builtin_sqrt S1 A8])
+            (const_int 8 [0x8]))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":139:60 -1
+     (expr_list:REG_EH_REGION (const_int 0 [0])
+        (nil))
+    (expr_list:DF (use (mem:DF (reg/f:SI 79 virtual-outgoing-args) [0  S8 A32]))
+        (nil)))
+(insn 123 122 124 21 (set (reg:DF 101 [ _20 ])
+        (reg:DF 8 st)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":139:60 -1
+     (nil))
+(insn 124 123 125 21 (set (reg:XF 102 [ _21 ])
+        (float_extend:XF (reg:DF 101 [ _20 ]))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":139:60 -1
+     (nil))
+(insn 125 124 126 21 (set (reg:XF 103 [ _22 ])
+        (mult:XF (reg:XF 99 [ _18 ])
+            (reg:XF 102 [ _21 ]))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":139:58 -1
+     (nil))
+(insn 126 125 127 21 (set (reg:XF 104 [ _23 ])
+        (div:XF (reg:XF 96 [ _15 ])
+            (reg:XF 103 [ _22 ]))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":139:38 -1
+     (nil))
+(insn 127 126 128 21 (set (mem/c:DF (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                (const_int -32 [0xffffffffffffffe0])) [3 similarity+0 S8 A64])
+        (float_truncate:DF (reg:XF 104 [ _23 ]))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":139:16 -1
+     (nil))
+(insn 128 127 131 21 (set (reg:DF 105 [ _55 ])
+        (mem/c:DF (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                (const_int -32 [0xffffffffffffffe0])) [3 similarity+0 S8 A64])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":141:12 -1
+     (nil))
+(insn 131 128 135 21 (set (reg:DF 106 [ <retval> ])
+        (reg:DF 105 [ _55 ])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":141:12 -1
+     (nil))
+(insn 135 131 136 21 (set (reg/i:DF 8 st)
+        (reg:DF 106 [ <retval> ])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":142:1 -1
+     (nil))
+(insn 136 135 0 21 (use (reg/i:DF 8 st)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":142:1 -1
+     (nil))
+
+;; Function runGeneralChat (runGeneralChat, funcdef_no=22, decl_uid=2018, cgraph_uid=23, symbol_order=22)
+
+
+;; Generating RTL for gimple basic block 2
+
+;; Generating RTL for gimple basic block 3
+
+;; Generating RTL for gimple basic block 4
+
+;; Generating RTL for gimple basic block 5
+
+;; Generating RTL for gimple basic block 6
+
+;; Generating RTL for gimple basic block 7
+
+;; Generating RTL for gimple basic block 8
+
+;; Generating RTL for gimple basic block 9
+
+;; Generating RTL for gimple basic block 10
+
+;; Generating RTL for gimple basic block 11
+
+;; Generating RTL for gimple basic block 12
+
+;; Generating RTL for gimple basic block 13
+
+;; Generating RTL for gimple basic block 14
+
+;; Generating RTL for gimple basic block 15
+
+
+try_optimize_cfg iteration 1
+
+Merging block 3 into block 2...
+Merged blocks 2 and 3.
+Merged 2 and 3 without moving.
+Merging block 15 into block 14...
+Merged blocks 14 and 15.
+Merged 14 and 15 without moving.
+Removing jump 108.
+Merging block 17 into block 16...
+Merged blocks 16 and 17.
+Merged 16 and 17 without moving.
+
+
+try_optimize_cfg iteration 2
+
+
+
+;;
+;; Full RTL generated for this function:
+;;
+(note 1 0 3 NOTE_INSN_DELETED)
+(note 3 1 2 2 [bb 2] NOTE_INSN_BASIC_BLOCK)
+(note 2 3 5 2 NOTE_INSN_FUNCTION_BEG)
+(insn 5 2 6 2 (set (mem:SI (reg/f:SI 79 virtual-outgoing-args) [0  S4 A32])
+        (const_int 200 [0xc8])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":149:33 -1
+     (nil))
+(call_insn 6 5 7 2 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("malloc") [flags 0x43]  <function_decl 06bd20f0 malloc>) [0 __builtin_malloc S1 A8])
+            (const_int 4 [0x4]))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":149:33 -1
+     (expr_list:REG_EH_REGION (const_int 0 [0])
+        (nil))
+    (expr_list:SI (use (mem:SI (reg/f:SI 79 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(insn 7 6 8 2 (set (reg/f:SI 94)
+        (reg:SI 0 ax)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":149:33 -1
+     (expr_list:REG_NOALIAS (reg/f:SI 94)
+        (nil)))
+(insn 8 7 9 2 (set (mem/f/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                (const_int -8 [0xfffffffffffffff8])) [1 userChoice+0 S4 A32])
+        (reg/f:SI 94)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":149:33 -1
+     (nil))
+(insn 9 8 10 2 (set (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                (const_int -4 [0xfffffffffffffffc])) [2 i+0 S4 A32])
+        (const_int 0 [0])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":151:13 -1
+     (nil))
+(jump_insn 10 9 11 2 (set (pc)
+        (label_ref 91)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":151:5 -1
+     (nil)
+ -> 91)
+(barrier 11 10 94)
+(code_label 94 11 12 4 61 (nil) [1 uses])
+(note 12 94 13 4 [bb 4] NOTE_INSN_BASIC_BLOCK)
+(insn 13 12 14 4 (set (reg:SI 96)
+        (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                (const_int -4 [0xfffffffffffffffc])) [2 i+0 S4 A32])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":152:29 -1
+     (nil))
+(insn 14 13 15 4 (parallel [
+            (set (reg:SI 95)
+                (mult:SI (reg:SI 96)
+                    (const_int 200 [0xc8])))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":152:29 -1
+     (nil))
+(insn 15 14 16 4 (parallel [
+            (set (reg/f:SI 82 [ _1 ])
+                (plus:SI (reg:SI 95)
+                    (symbol_ref:SI ("userInput") [flags 0x42]  <var_decl 06c7c840 userInput>)))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":152:29 -1
+     (nil))
+(insn 16 15 17 4 (set (mem:SI (plus:SI (reg/f:SI 79 virtual-outgoing-args)
+                (const_int 4 [0x4])) [0  S4 A32])
+        (symbol_ref/f:SI ("*LC5") [flags 0x2]  <var_decl 06c9ca50 *LC5>)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":152:13 -1
+     (nil))
+(insn 17 16 18 4 (set (mem:SI (reg/f:SI 79 virtual-outgoing-args) [0  S4 A32])
+        (reg/f:SI 82 [ _1 ])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":152:13 -1
+     (nil))
+(call_insn/i 18 17 19 4 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("strcmp") [flags 0x43]  <function_decl 06bb0ac8 strcmp>) [0 __builtin_strcmp S1 A8])
+            (const_int 8 [0x8]))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":152:13 -1
+     (expr_list:REG_EH_REGION (const_int 0 [0])
+        (nil))
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 79 virtual-outgoing-args) [0  S4 A32]))
+        (expr_list:SI (use (mem/f:SI (plus:SI (reg/f:SI 79 virtual-outgoing-args)
+                        (const_int 4 [0x4])) [0  S4 A32]))
+            (nil))))
+(insn 19 18 20 4 (set (reg:SI 83 [ _2 ])
+        (reg:SI 0 ax)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":152:13 -1
+     (nil))
+(insn 20 19 21 4 (set (reg:CCZ 17 flags)
+        (compare:CCZ (reg:SI 83 [ _2 ])
+            (const_int 0 [0]))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":152:11 -1
+     (nil))
+(jump_insn 21 20 22 4 (set (pc)
+        (if_then_else (eq (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref 32)
+            (pc))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":152:11 -1
+     (nil)
+ -> 32)
+(note 22 21 23 5 [bb 5] NOTE_INSN_BASIC_BLOCK)
+(insn 23 22 24 5 (set (reg:SI 98)
+        (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                (const_int -4 [0xfffffffffffffffc])) [2 i+0 S4 A32])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":152:70 -1
+     (nil))
+(insn 24 23 25 5 (parallel [
+            (set (reg:SI 97)
+                (mult:SI (reg:SI 98)
+                    (const_int 200 [0xc8])))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":152:70 -1
+     (nil))
+(insn 25 24 26 5 (parallel [
+            (set (reg/f:SI 84 [ _3 ])
+                (plus:SI (reg:SI 97)
+                    (symbol_ref:SI ("userInput") [flags 0x42]  <var_decl 06c7c840 userInput>)))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":152:70 -1
+     (nil))
+(insn 26 25 27 5 (set (mem:SI (plus:SI (reg/f:SI 79 virtual-outgoing-args)
+                (const_int 4 [0x4])) [0  S4 A32])
+        (symbol_ref/f:SI ("*LC6") [flags 0x2]  <var_decl 06c9caa8 *LC6>)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":152:54 -1
+     (nil))
+(insn 27 26 28 5 (set (mem:SI (reg/f:SI 79 virtual-outgoing-args) [0  S4 A32])
+        (reg/f:SI 84 [ _3 ])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":152:54 -1
+     (nil))
+(call_insn/i 28 27 29 5 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("strcmp") [flags 0x43]  <function_decl 06bb0ac8 strcmp>) [0 __builtin_strcmp S1 A8])
+            (const_int 8 [0x8]))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":152:54 -1
+     (expr_list:REG_EH_REGION (const_int 0 [0])
+        (nil))
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 79 virtual-outgoing-args) [0  S4 A32]))
+        (expr_list:SI (use (mem/f:SI (plus:SI (reg/f:SI 79 virtual-outgoing-args)
+                        (const_int 4 [0x4])) [0  S4 A32]))
+            (nil))))
+(insn 29 28 30 5 (set (reg:SI 85 [ _4 ])
+        (reg:SI 0 ax)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":152:54 -1
+     (nil))
+(insn 30 29 31 5 (set (reg:CCZ 17 flags)
+        (compare:CCZ (reg:SI 85 [ _4 ])
+            (const_int 0 [0]))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":152:50 -1
+     (nil))
+(jump_insn 31 30 32 5 (set (pc)
+        (if_then_else (ne (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref 60)
+            (pc))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":152:50 -1
+     (nil)
+ -> 60)
+(code_label 32 31 33 6 55 (nil) [1 uses])
+(note 33 32 34 6 [bb 6] NOTE_INSN_BASIC_BLOCK)
+(insn 34 33 35 6 (set (mem:SI (reg/f:SI 79 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref/f:SI ("*LC7") [flags 0x2]  <var_decl 06c9cb00 *LC7>)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":153:13 -1
+     (nil))
+(call_insn 35 34 36 6 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("printf") [flags 0x3]  <function_decl 06c67870 printf>) [0 printf S1 A8])
+            (const_int 4 [0x4]))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":153:13 -1
+     (expr_list:REG_EH_REGION (const_int 0 [0])
+        (nil))
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 79 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(insn 36 35 37 6 (set (mem:SI (reg/f:SI 79 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref/f:SI ("*LC2") [flags 0x2]  <var_decl 06c9c948 *LC2>)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":154:13 -1
+     (nil))
+(call_insn 37 36 38 6 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("printf") [flags 0x3]  <function_decl 06c67870 printf>) [0 printf S1 A8])
+            (const_int 4 [0x4]))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":154:13 -1
+     (expr_list:REG_EH_REGION (const_int 0 [0])
+        (nil))
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 79 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(insn 38 37 39 6 (set (mem:SI (reg/f:SI 79 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref/f:SI ("*LC8") [flags 0x2]  <var_decl 06c9cb58 *LC8>)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":155:13 -1
+     (nil))
+(call_insn 39 38 40 6 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("printf") [flags 0x3]  <function_decl 06c67870 printf>) [0 printf S1 A8])
+            (const_int 4 [0x4]))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":155:13 -1
+     (expr_list:REG_EH_REGION (const_int 0 [0])
+        (nil))
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 79 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(insn 40 39 41 6 (set (reg/f:SI 99)
+        (mem/f/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                (const_int -8 [0xfffffffffffffff8])) [1 userChoice+0 S4 A32])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":156:13 -1
+     (nil))
+(insn 41 40 42 6 (set (mem:SI (plus:SI (reg/f:SI 79 virtual-outgoing-args)
+                (const_int 4 [0x4])) [0  S4 A32])
+        (reg/f:SI 99)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":156:13 -1
+     (nil))
+(insn 42 41 43 6 (set (mem:SI (reg/f:SI 79 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref/f:SI ("*LC9") [flags 0x2]  <var_decl 06c9cbb0 *LC9>)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":156:13 -1
+     (nil))
+(call_insn 43 42 44 6 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("scanf") [flags 0x43]  <function_decl 06bb5348 scanf>) [0 __builtin_scanf S1 A8])
+            (const_int 8 [0x8]))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":156:13 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 79 virtual-outgoing-args) [0  S4 A32]))
+        (expr_list:SI (use (mem/f:SI (plus:SI (reg/f:SI 79 virtual-outgoing-args)
+                        (const_int 4 [0x4])) [0  S4 A32]))
+            (nil))))
+(insn 44 43 45 6 (set (mem:SI (plus:SI (reg/f:SI 79 virtual-outgoing-args)
+                (const_int 4 [0x4])) [0  S4 A32])
+        (symbol_ref/f:SI ("*LC10") [flags 0x2]  <var_decl 06c9cc08 *LC10>)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":157:16 -1
+     (nil))
+(insn 45 44 46 6 (set (reg/f:SI 100)
+        (mem/f/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                (const_int -8 [0xfffffffffffffff8])) [1 userChoice+0 S4 A32])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":157:16 -1
+     (nil))
+(insn 46 45 47 6 (set (mem:SI (reg/f:SI 79 virtual-outgoing-args) [0  S4 A32])
+        (reg/f:SI 100)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":157:16 -1
+     (nil))
+(call_insn/i 47 46 48 6 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("strcmp") [flags 0x43]  <function_decl 06bb0ac8 strcmp>) [0 __builtin_strcmp S1 A8])
+            (const_int 8 [0x8]))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":157:16 -1
+     (expr_list:REG_EH_REGION (const_int 0 [0])
+        (nil))
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 79 virtual-outgoing-args) [0  S4 A32]))
+        (expr_list:SI (use (mem/f:SI (plus:SI (reg/f:SI 79 virtual-outgoing-args)
+                        (const_int 4 [0x4])) [0  S4 A32]))
+            (nil))))
+(insn 48 47 49 6 (set (reg:SI 86 [ _5 ])
+        (reg:SI 0 ax)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":157:16 -1
+     (nil))
+(insn 49 48 50 6 (set (reg:CCZ 17 flags)
+        (compare:CCZ (reg:SI 86 [ _5 ])
+            (const_int 0 [0]))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":157:15 -1
+     (nil))
+(jump_insn 50 49 51 6 (set (pc)
+        (if_then_else (ne (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref 55)
+            (pc))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":157:15 -1
+     (nil)
+ -> 55)
+(note 51 50 52 7 [bb 7] NOTE_INSN_BASIC_BLOCK)
+(insn 52 51 53 7 (set (mem:SI (reg/f:SI 79 virtual-outgoing-args) [0  S4 A32])
+        (const_int 0 [0])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":158:17 -1
+     (nil))
+(call_insn 53 52 54 7 (call (mem:QI (symbol_ref:SI ("exit") [flags 0x43]  <function_decl 06bc2708 exit>) [0 __builtin_exit S1 A8])
+        (const_int 4 [0x4])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":158:17 -1
+     (expr_list:REG_NORETURN (const_int 0 [0])
+        (expr_list:REG_EH_REGION (const_int 0 [0])
+            (nil)))
+    (expr_list:SI (use (mem:SI (reg/f:SI 79 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(barrier 54 53 55)
+(code_label 55 54 56 8 57 (nil) [1 uses])
+(note 56 55 57 8 [bb 8] NOTE_INSN_BASIC_BLOCK)
+(insn 57 56 58 8 (set (reg:SI 92 [ _12 ])
+        (const_int 1 [0x1])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":160:20 -1
+     (nil))
+(jump_insn 58 57 59 8 (set (pc)
+        (label_ref 105)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":160:20 -1
+     (nil)
+ -> 105)
+(barrier 59 58 60)
+(code_label 60 59 61 9 56 (nil) [1 uses])
+(note 61 60 62 9 [bb 9] NOTE_INSN_BASIC_BLOCK)
+(insn 62 61 63 9 (set (reg:SI 102)
+        (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                (const_int -4 [0xfffffffffffffffc])) [2 i+0 S4 A32])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":162:34 -1
+     (nil))
+(insn 63 62 64 9 (parallel [
+            (set (reg:SI 101)
+                (mult:SI (reg:SI 102)
+                    (const_int 200 [0xc8])))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":162:34 -1
+     (nil))
+(insn 64 63 65 9 (parallel [
+            (set (reg/f:SI 87 [ _6 ])
+                (plus:SI (reg:SI 101)
+                    (symbol_ref:SI ("userInput") [flags 0x42]  <var_decl 06c7c840 userInput>)))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":162:34 -1
+     (nil))
+(insn 65 64 66 9 (set (mem:SI (plus:SI (reg/f:SI 79 virtual-outgoing-args)
+                (const_int 4 [0x4])) [0  S4 A32])
+        (symbol_ref/f:SI ("*LC11") [flags 0x2]  <var_decl 06c9cc60 *LC11>)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":162:18 -1
+     (nil))
+(insn 66 65 67 9 (set (mem:SI (reg/f:SI 79 virtual-outgoing-args) [0  S4 A32])
+        (reg/f:SI 87 [ _6 ])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":162:18 -1
+     (nil))
+(call_insn/i 67 66 68 9 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("strcmp") [flags 0x43]  <function_decl 06bb0ac8 strcmp>) [0 __builtin_strcmp S1 A8])
+            (const_int 8 [0x8]))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":162:18 -1
+     (expr_list:REG_EH_REGION (const_int 0 [0])
+        (nil))
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 79 virtual-outgoing-args) [0  S4 A32]))
+        (expr_list:SI (use (mem/f:SI (plus:SI (reg/f:SI 79 virtual-outgoing-args)
+                        (const_int 4 [0x4])) [0  S4 A32]))
+            (nil))))
+(insn 68 67 69 9 (set (reg:SI 88 [ _7 ])
+        (reg:SI 0 ax)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":162:18 -1
+     (nil))
+(insn 69 68 70 9 (set (reg:CCZ 17 flags)
+        (compare:CCZ (reg:SI 88 [ _7 ])
+            (const_int 0 [0]))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":162:16 -1
+     (nil))
+(jump_insn 70 69 71 9 (set (pc)
+        (if_then_else (eq (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref 81)
+            (pc))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":162:16 -1
+     (nil)
+ -> 81)
+(note 71 70 72 10 [bb 10] NOTE_INSN_BASIC_BLOCK)
+(insn 72 71 73 10 (set (reg:SI 104)
+        (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                (const_int -4 [0xfffffffffffffffc])) [2 i+0 S4 A32])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":162:71 -1
+     (nil))
+(insn 73 72 74 10 (parallel [
+            (set (reg:SI 103)
+                (mult:SI (reg:SI 104)
+                    (const_int 200 [0xc8])))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":162:71 -1
+     (nil))
+(insn 74 73 75 10 (parallel [
+            (set (reg/f:SI 89 [ _8 ])
+                (plus:SI (reg:SI 103)
+                    (symbol_ref:SI ("userInput") [flags 0x42]  <var_decl 06c7c840 userInput>)))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":162:71 -1
+     (nil))
+(insn 75 74 76 10 (set (mem:SI (plus:SI (reg/f:SI 79 virtual-outgoing-args)
+                (const_int 4 [0x4])) [0  S4 A32])
+        (symbol_ref/f:SI ("*LC12") [flags 0x2]  <var_decl 06c9ccb8 *LC12>)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":162:55 -1
+     (nil))
+(insn 76 75 77 10 (set (mem:SI (reg/f:SI 79 virtual-outgoing-args) [0  S4 A32])
+        (reg/f:SI 89 [ _8 ])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":162:55 -1
+     (nil))
+(call_insn/i 77 76 78 10 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("strcmp") [flags 0x43]  <function_decl 06bb0ac8 strcmp>) [0 __builtin_strcmp S1 A8])
+            (const_int 8 [0x8]))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":162:55 -1
+     (expr_list:REG_EH_REGION (const_int 0 [0])
+        (nil))
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 79 virtual-outgoing-args) [0  S4 A32]))
+        (expr_list:SI (use (mem/f:SI (plus:SI (reg/f:SI 79 virtual-outgoing-args)
+                        (const_int 4 [0x4])) [0  S4 A32]))
+            (nil))))
+(insn 78 77 79 10 (set (reg:SI 90 [ _9 ])
+        (reg:SI 0 ax)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":162:55 -1
+     (nil))
+(insn 79 78 80 10 (set (reg:CCZ 17 flags)
+        (compare:CCZ (reg:SI 90 [ _9 ])
+            (const_int 0 [0]))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":162:51 -1
+     (nil))
+(jump_insn 80 79 81 10 (set (pc)
+        (if_then_else (ne (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref 88)
+            (pc))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":162:51 -1
+     (nil)
+ -> 88)
+(code_label 81 80 82 11 59 (nil) [1 uses])
+(note 82 81 83 11 [bb 11] NOTE_INSN_BASIC_BLOCK)
+(insn 83 82 84 11 (set (mem:SI (reg/f:SI 79 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref/f:SI ("*LC13") [flags 0x2]  <var_decl 06c9cd10 *LC13>)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":163:13 -1
+     (nil))
+(call_insn 84 83 85 11 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("printf") [flags 0x3]  <function_decl 06c67870 printf>) [0 printf S1 A8])
+            (const_int 4 [0x4]))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":163:13 -1
+     (expr_list:REG_EH_REGION (const_int 0 [0])
+        (nil))
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 79 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(insn 85 84 86 11 (set (reg:SI 92 [ _12 ])
+        (const_int 1 [0x1])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":164:20 -1
+     (nil))
+(jump_insn 86 85 87 11 (set (pc)
+        (label_ref 105)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":164:20 -1
+     (nil)
+ -> 105)
+(barrier 87 86 88)
+(code_label 88 87 89 12 60 (nil) [1 uses])
+(note 89 88 90 12 [bb 12] NOTE_INSN_BASIC_BLOCK)
+(insn 90 89 91 12 (parallel [
+            (set (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                        (const_int -4 [0xfffffffffffffffc])) [2 i+0 S4 A32])
+                (plus:SI (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                            (const_int -4 [0xfffffffffffffffc])) [2 i+0 S4 A32])
+                    (const_int 1 [0x1])))
+            (clobber (reg:CC 17 flags))
+        ]) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":151:38 -1
+     (nil))
+(code_label 91 90 92 13 54 (nil) [1 uses])
+(note 92 91 93 13 [bb 13] NOTE_INSN_BASIC_BLOCK)
+(insn 93 92 95 13 (set (reg:SI 91 [ lenUserInput.8_10 ])
+        (mem/c:SI (symbol_ref:SI ("lenUserInput") [flags 0x42]  <var_decl 06c7c898 lenUserInput>) [2 lenUserInput+0 S4 A32])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":151:22 -1
+     (nil))
+(insn 95 93 96 13 (set (reg:CCGC 17 flags)
+        (compare:CCGC (mem/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                    (const_int -4 [0xfffffffffffffffc])) [2 i+0 S4 A32])
+            (reg:SI 91 [ lenUserInput.8_10 ]))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":151:5 -1
+     (nil))
+(jump_insn 96 95 97 13 (set (pc)
+        (if_then_else (lt (reg:CCGC 17 flags)
+                (const_int 0 [0]))
+            (label_ref 94)
+            (pc))) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":151:5 -1
+     (nil)
+ -> 94)
+(note 97 96 98 14 [bb 14] NOTE_INSN_BASIC_BLOCK)
+(insn 98 97 99 14 (set (reg/f:SI 105)
+        (mem/f/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                (const_int -8 [0xfffffffffffffff8])) [1 userChoice+0 S4 A32])) -1
+     (nil))
+(insn 99 98 100 14 (set (mem/f/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                (const_int -12 [0xfffffffffffffff4])) [9 __ptr+0 S4 A32])
+        (reg/f:SI 105)) -1
+     (nil))
+(insn 100 99 101 14 (set (reg/f:SI 106)
+        (mem/f/c:SI (plus:SI (reg/f:SI 77 virtual-stack-vars)
+                (const_int -12 [0xfffffffffffffff4])) [9 __ptr+0 S4 A32])) "c:\mingw\include\stdlib.h":586:3 -1
+     (nil))
+(insn 101 100 102 14 (set (mem:SI (reg/f:SI 79 virtual-outgoing-args) [0  S4 A32])
+        (reg/f:SI 106)) "c:\mingw\include\stdlib.h":586:3 -1
+     (nil))
+(call_insn 102 101 114 14 (call (mem:QI (symbol_ref:SI ("__mingw_free") [flags 0x43]  <function_decl 06c49c30 __mingw_free>) [0 __mingw_free S1 A8])
+        (const_int 4 [0x4])) "c:\mingw\include\stdlib.h":586:3 -1
+     (expr_list:REG_EH_REGION (const_int 0 [0])
+        (nil))
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 79 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(insn 114 102 104 14 (const_int 0 [0]) "c:\mingw\include\stdlib.h":586:1 -1
+     (nil))
+(insn 104 114 105 14 (set (reg:SI 92 [ _12 ])
+        (const_int 0 [0])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":168:12 -1
+     (nil))
+(code_label 105 104 106 16 58 (nil) [2 uses])
+(note 106 105 107 16 [bb 16] NOTE_INSN_BASIC_BLOCK)
+(insn 107 106 111 16 (set (reg:SI 93 [ <retval> ])
+        (reg:SI 92 [ _12 ])) -1
+     (nil))
+(insn 111 107 112 16 (set (reg/i:SI 0 ax)
+        (reg:SI 93 [ <retval> ])) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":169:1 -1
+     (nil))
+(insn 112 111 0 16 (use (reg/i:SI 0 ax)) "C:\Users\Owner\Desktop\projec\C_Chatbot\c_chatbot\src\chatbotLogic.c":169:1 -1
+     (nil))

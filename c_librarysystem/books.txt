@@ -1,0 +1,10 @@
+8/n
+
+4	Game of Thrones;	Robert Something;	1999	20
+5	Princess blood;	harry pooper;	2002	11
+6	Dark Roads of Pain;	mystical agriculture;	2001	22
+7	triumphand man and glory to global;	jack hones;	2000	5
+9	mathematics;	johnson brick;	2002	2
+10	Mistborn;	Brandon Sanderson;	2006	4
+11	Harry Potter;	JK Rowling;	2001	5
+12	Britannica Encyclopedia;	Earth;	1901	2

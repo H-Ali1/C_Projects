@@ -1,0 +1,3 @@
+C:/Users/Owner/Desktop/projec/c_librarysystem/cmake-build-debug/CMakeFiles/run.dir
+C:/Users/Owner/Desktop/projec/c_librarysystem/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Owner/Desktop/projec/c_librarysystem/cmake-build-debug/CMakeFiles/rebuild_cache.dir
