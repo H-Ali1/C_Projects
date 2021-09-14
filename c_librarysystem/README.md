@@ -1,6 +1,11 @@
-The system cannot **run** without books.txt, loans.txt and users.txt
-The files should not be compressed and should hopefully be in same format 
-as uploaded on gitlab to work properly. 
+The system should be **ran** with books.txt, loans.txt and users.txt
+To run create an executable:
+	mkdir build
+	cd build
+	cmake ..
+	make
+To run: ./run
+
 
 
 Administrator Login for the Library System:
